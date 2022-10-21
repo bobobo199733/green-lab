@@ -1,0 +1,62 @@
+{
+  "type": "web",
+  "devices": {
+    "test": {}
+  },
+  "repetitions": 3,
+  "duration": 1000,
+  "browsers": ["opera"],
+  "monkeyrunner_path": "/home/user/Android/Sdk/tools/bin/monkeyrunner",
+  "systrace_path": "/home/user/Android/Sdk/platform-tools/systrace/systrace.py",
+  "powerprofile_path": "android-runner/examples/batterystats/Scripts/power_profile.xml", 
+  "paths":[ 
+"http://192.168.40.192:8000/Downloads/green_lab_websites/Bogdan/Fedex_CSS/www.fedex.com/global/choose-location.html",
+"http://192.168.40.192:8000/Downloads/green_lab_websites/Bogdan/Realtor_CSS/www.realtor.com/index.html",
+"http://192.168.40.192:8000/Downloads/green_lab_websites/Bogdan/Zillow_CSS/www.zillow.com/index.html",
+"http://192.168.40.192:8000/Downloads/green_lab_websites/Bogdan/W3Schools_CSS/www.w3schools.com/index.html",
+"http://192.168.40.192:8000/Downloads/green_lab_websites/Bogdan/USPS_CSS/www.usps.com/index.html",
+"http://192.168.40.192:8000/Downloads/green_lab_websites/Zengyi/tinder_CSS/tinder.com/index.html",
+"http://192.168.40.192:8000/Downloads/green_lab_websites/Zengyi/mobico_withcss/mobico.nl/producten/iphone/index.html",
+"http://192.168.40.192:8000/Downloads/green_lab_websites/Zengyi/badoo_withcss/badoo.com/index.html",
+"http://192.168.40.192:8000/Downloads/green_lab_websites/Zengyi/biblegatewat_withcss/www.biblegatewat.com/index.html",
+"http://192.168.40.192:8000/Downloads/green_lab_websites/Zengyi/bakecaincontrii.com/www.bakecaincontrii.com/index.html",
+"http://192.168.40.192:8000/Downloads/green_lab_websites/qyy/amazon_with/www.amazon.com/index.html",
+"http://192.168.40.192:8000/Downloads/green_lab_websites/qyy/oracle_with/www.oracle.com/index.html",
+"http://192.168.40.192:8000/Downloads/green_lab_websites/qyy/bing_with/www.bing.com/index.html",
+"http://192.168.40.192:8000/Downloads/green_lab_websites/qyy/debian_with/index.html",
+"http://192.168.40.192:8000/Downloads/green_lab_websites/qyy/sciencedirect_with/www.sciencedirect.com/index.html",
+"http://192.168.40.192:8000/Downloads/green_lab_websites/qyy/rakuten_with/www.rakuten.co.jp/index.html",
+"http://192.168.40.192:8000/Downloads/green_lab_websites/qyy/ebay_with/www.ebay.com/index.html",
+"http://192.168.40.192:8000/Downloads/green_lab_websites/Dianlin/akismet.com_with.com/akismet.com/index.html",
+"http://192.168.40.192:8000/Downloads/green_lab_websites/Dianlin/bitly.com_with.com/bitly.com/index.html",
+"http://192.168.40.192:8000/Downloads/green_lab_websites/Dianlin/bitnami.com_with.com/bitnami.com/index.html",
+"http://192.168.40.192:8000/Downloads/green_lab_websites/Qiuyang/instagram_with/www.instagram.com/index.html",
+"http://192.168.40.192:8000/Downloads/green_lab_websites/Qiuyang/google_with/www.google.com/index.html",
+"http://192.168.40.192:8000/Downloads/green_lab_websites/Dianlin/www.jimdo.com_with.com/www.jimdo.com/index.html",
+"http://192.168.40.192:8000/Downloads/green_lab_websites/Dianlin/www.tradingview_with.com/www.tradingview.com/index.html",
+"http://192.168.40.192:8000/Downloads/green_lab_websites/Dianlin/vk_with/vk.com/index.html"
+  ],
+  "profilers": {
+    "batterystats": {
+      "cleanup": true,
+      "python2_path":"/home/pi/.pyenv/versions/systrace/bin/python2.7"
+    }
+  },
+  "scripts": {
+    "before_experiment": "Scripts/before_experiment.py",
+    "before_run": "Scripts/before_run.py",
+    "after_launch": "Scripts/after_launch.py",
+    "interaction": [
+      {
+        "type": "python3",
+        "path": "Scripts/interaction.py",
+        "timeout": 500,
+        "logcat_regex": ""
+      }
+    ],
+    "before_close": "Scripts/before_close.py",
+    "after_run": "Scripts/after_run.py",
+    "after_experiment": "Scripts/after_experiment.py"
+  },
+  "time_between_run": 100
+}

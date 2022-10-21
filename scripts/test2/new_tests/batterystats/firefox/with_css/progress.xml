@@ -1,0 +1,457 @@
+<experiment>
+  <configHash>68603ae878ed02606919120561e85474</configHash>
+  <outputDir>/home/pi/android-runner/examples/batterystats/output/2022.10.12_175115/</outputDir>
+  <runsToRun/>
+  <runsDone>
+    <run runId="0">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Bogdan/Fedex_CSS/www.fedex.com/global/choose-location.html</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="1">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Bogdan/Fedex_CSS/www.fedex.com/global/choose-location.html</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="2">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Bogdan/Fedex_CSS/www.fedex.com/global/choose-location.html</path>
+      <browser>firefox</browser>
+      <runCount>3</runCount>
+    </run>
+    <run runId="3">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Bogdan/Realtor_CSS/www.realtor.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="4">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Bogdan/Realtor_CSS/www.realtor.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="5">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Bogdan/Realtor_CSS/www.realtor.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>3</runCount>
+    </run>
+    <run runId="6">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Bogdan/Zillow_CSS/www.zillow.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="7">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Bogdan/Zillow_CSS/www.zillow.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="8">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Bogdan/Zillow_CSS/www.zillow.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>3</runCount>
+    </run>
+    <run runId="9">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Bogdan/W3Schools_CSS/www.w3schools.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="10">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Bogdan/W3Schools_CSS/www.w3schools.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="11">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Bogdan/W3Schools_CSS/www.w3schools.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>3</runCount>
+    </run>
+    <run runId="12">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Bogdan/USPS_CSS/www.usps.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="13">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Bogdan/USPS_CSS/www.usps.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="14">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Bogdan/USPS_CSS/www.usps.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>3</runCount>
+    </run>
+    <run runId="15">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Zengyi/tinder_CSS/tinder.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="16">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Zengyi/tinder_CSS/tinder.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="17">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Zengyi/tinder_CSS/tinder.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>3</runCount>
+    </run>
+    <run runId="18">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Zengyi/mobico_withcss/mobico.nl/producten/iphone/index.html</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="19">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Zengyi/mobico_withcss/mobico.nl/producten/iphone/index.html</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="20">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Zengyi/mobico_withcss/mobico.nl/producten/iphone/index.html</path>
+      <browser>firefox</browser>
+      <runCount>3</runCount>
+    </run>
+    <run runId="21">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Zengyi/badoo_withcss/badoo.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="22">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Zengyi/badoo_withcss/badoo.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="23">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Zengyi/badoo_withcss/badoo.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>3</runCount>
+    </run>
+    <run runId="24">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Zengyi/biblegatewat_withcss/www.biblegatewat.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="25">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Zengyi/biblegatewat_withcss/www.biblegatewat.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="26">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Zengyi/biblegatewat_withcss/www.biblegatewat.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>3</runCount>
+    </run>
+    <run runId="27">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Zengyi/bakecaincontrii.com/www.bakecaincontrii.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="28">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Zengyi/bakecaincontrii.com/www.bakecaincontrii.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="29">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Zengyi/bakecaincontrii.com/www.bakecaincontrii.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>3</runCount>
+    </run>
+    <run runId="30">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/qyy/amazon_with/www.amazon.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="31">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/qyy/amazon_with/www.amazon.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="32">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/qyy/amazon_with/www.amazon.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>3</runCount>
+    </run>
+    <run runId="33">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/qyy/oracle_with/www.oracle.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="34">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/qyy/oracle_with/www.oracle.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="35">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/qyy/oracle_with/www.oracle.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>3</runCount>
+    </run>
+    <run runId="36">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/qyy/bing_with/www.bing.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="37">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/qyy/bing_with/www.bing.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="38">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/qyy/bing_with/www.bing.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>3</runCount>
+    </run>
+    <run runId="39">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/qyy/debian_with/index.html</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="40">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/qyy/debian_with/index.html</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="41">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/qyy/debian_with/index.html</path>
+      <browser>firefox</browser>
+      <runCount>3</runCount>
+    </run>
+    <run runId="42">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/qyy/sciencedirect_with/www.sciencedirect.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="43">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/qyy/sciencedirect_with/www.sciencedirect.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="44">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/qyy/sciencedirect_with/www.sciencedirect.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>3</runCount>
+    </run>
+    <run runId="45">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/qyy/rakuten_with/www.rakuten.co.jp/index.html</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="46">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/qyy/rakuten_with/www.rakuten.co.jp/index.html</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="47">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/qyy/rakuten_with/www.rakuten.co.jp/index.html</path>
+      <browser>firefox</browser>
+      <runCount>3</runCount>
+    </run>
+    <run runId="48">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/qyy/ebay_with/www.ebay.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="49">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/qyy/ebay_with/www.ebay.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="50">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/qyy/ebay_with/www.ebay.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>3</runCount>
+    </run>
+    <run runId="51">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Dianlin/akismet.com_with.com/akismet.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="52">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Dianlin/akismet.com_with.com/akismet.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="53">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Dianlin/akismet.com_with.com/akismet.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>3</runCount>
+    </run>
+    <run runId="54">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Dianlin/bitly.com_with.com/bitly.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="55">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Dianlin/bitly.com_with.com/bitly.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="56">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Dianlin/bitly.com_with.com/bitly.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>3</runCount>
+    </run>
+    <run runId="57">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Dianlin/bitnami.com_with.com/bitnami.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="58">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Dianlin/bitnami.com_with.com/bitnami.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="59">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Dianlin/bitnami.com_with.com/bitnami.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>3</runCount>
+    </run>
+    <run runId="60">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Qiuyang/instagram_with/www.instagram.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="61">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Qiuyang/instagram_with/www.instagram.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="62">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Qiuyang/instagram_with/www.instagram.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>3</runCount>
+    </run>
+    <run runId="63">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Qiuyang/google_with/www.google.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="64">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Qiuyang/google_with/www.google.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="65">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Qiuyang/google_with/www.google.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>3</runCount>
+    </run>
+    <run runId="66">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Dianlin/www.jimdo.com_with.com/www.jimdo.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="67">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Dianlin/www.jimdo.com_with.com/www.jimdo.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="68">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Dianlin/www.jimdo.com_with.com/www.jimdo.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>3</runCount>
+    </run>
+    <run runId="69">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Dianlin/www.tradingview_with.com/www.tradingview.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="70">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Dianlin/www.tradingview_with.com/www.tradingview.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="71">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Dianlin/www.tradingview_with.com/www.tradingview.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>3</runCount>
+    </run>
+    <run runId="72">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Dianlin/vk_with/vk.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="73">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Dianlin/vk_with/vk.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="74">
+      <device>test</device>
+      <path>http://192.168.40.192:8000/Downloads/green_lab_websites/Dianlin/vk_with/vk.com/index.html</path>
+      <browser>firefox</browser>
+      <runCount>3</runCount>
+    </run>
+  </runsDone>
+</experiment>
