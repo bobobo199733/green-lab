@@ -1,0 +1,15 @@
+.publication-date-A19F_9zf {
+    font-feature-settings: "tnum" on, "lnum" on;
+    color: #6a6d78;
+    display: block;
+    font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    width: fit-content
+}
+
+html.theme-dark .publication-date-A19F_9zf {
+    color: #868993
+}

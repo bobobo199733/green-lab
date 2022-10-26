@@ -1,0 +1,21 @@
+ul {
+  &.checkmarks {
+    list-style: none;
+
+    li {
+      &:before {
+        background-image: url('../img/icons/check-mark.svg');
+        background-size: 16px auto;
+        background-repeat: no-repeat;
+        display: inline-block;
+        content: '';
+        width: 20px;
+        height: 1.6em;
+        top: 7px;
+        position: relative;
+        margin-bottom: -5px;
+        margin-right: 4px;
+      }
+    }
+  }
+}

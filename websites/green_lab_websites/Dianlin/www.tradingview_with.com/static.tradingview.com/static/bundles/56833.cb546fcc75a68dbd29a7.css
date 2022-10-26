@@ -1,0 +1,128 @@
+.logo-icon-bMomxTbs {
+    color: #131722;
+    display: flex
+}
+
+html.theme-dark .logo-icon-bMomxTbs {
+    color: #d1d4dc
+}
+
+.logo-icon-bMomxTbs.link-bMomxTbs {
+    color: #131722;
+    transition: color .35s ease
+}
+
+html.theme-dark .logo-icon-bMomxTbs.link-bMomxTbs {
+    color: #d1d4dc
+}
+
+.logo-icon-bMomxTbs.link-bMomxTbs:visited {
+    fill: #131722;
+    color: #131722
+}
+
+html.theme-dark .logo-icon-bMomxTbs.link-bMomxTbs:visited {
+    fill: #d1d4dc;
+    color: #d1d4dc
+}
+
+@media (any-hover:hover) {
+    .logo-icon-bMomxTbs.link-bMomxTbs:hover {
+        fill: #1e53e5;
+        color: #1e53e5;
+        transition-duration: 60ms
+    }
+    html.theme-dark .logo-icon-bMomxTbs.link-bMomxTbs:hover {
+        fill: #1e53e5;
+        color: #1e53e5
+    }
+}
+
+.logo-icon-bMomxTbs.link-bMomxTbs:focus {
+    outline: auto
+}
+
+.logo-icon-bMomxTbs.link-bMomxTbs:focus-visible {
+    outline: auto
+}
+
+.logo-icon-bMomxTbs.link-bMomxTbs:focus:not(:focus-visible) {
+    outline: none
+}
+
+.logo-icon-bMomxTbs.link-bMomxTbs:active {
+    fill: #1848cc;
+    color: #1848cc;
+    transition-duration: 60ms
+}
+
+html.theme-dark .logo-icon-bMomxTbs.link-bMomxTbs:active {
+    fill: #1848cc;
+    color: #1848cc
+}
+
+.logo-icon-bMomxTbs.link-bMomxTbs {
+    outline: none;
+    overflow: visible;
+    position: relative
+}
+
+.logo-icon-bMomxTbs.link-bMomxTbs:focus {
+    outline: none
+}
+
+.logo-icon-bMomxTbs.link-bMomxTbs:focus-visible {
+    outline: none
+}
+
+.logo-icon-bMomxTbs.link-bMomxTbs:after {
+    border-style: solid;
+    border-width: 2px;
+    box-sizing: border-box;
+    content: "";
+    display: none;
+    height: calc(100% + 8px);
+    left: -4px;
+    pointer-events: none;
+    position: absolute;
+    top: -4px;
+    width: calc(100% + 8px);
+    z-index: 1
+}
+
+.logo-icon-bMomxTbs.link-bMomxTbs:focus:after {
+    display: block
+}
+
+.logo-icon-bMomxTbs.link-bMomxTbs:focus-visible:after {
+    display: block
+}
+
+.logo-icon-bMomxTbs.link-bMomxTbs:focus:not(:focus-visible):after {
+    display: none
+}
+
+.logo-icon-bMomxTbs.link-bMomxTbs:after {
+    border-color: #2962ff;
+    border-radius: 16px
+}
+
+.logo-icon-bMomxTbs.link-bMomxTbs:active {
+    transform: translateY(1px)
+}
+
+.logo-icon-bMomxTbs.link-bMomxTbs.with-short-name-bMomxTbs:after {
+    border-radius: 4px
+}
+
+.short-name-bMomxTbs {
+    font-feature-settings: "tnum" on, "lnum" on;
+    font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: .4px;
+    line-height: 18px;
+    margin-left: 8px;
+    text-transform: uppercase
+}

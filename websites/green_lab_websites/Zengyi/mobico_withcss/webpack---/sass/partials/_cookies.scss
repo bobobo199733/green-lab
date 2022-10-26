@@ -1,0 +1,97 @@
+.nf-field-label {
+  width: 100% !important;
+}
+
+#CybotCookiebotDialog {
+  border: 0 !important;
+  border-radius: 2px !important;
+  padding: 5px 10px 10px !important;
+  @media screen and (max-width: 640px) {
+    padding: 10px 0 !important;
+  }
+}
+
+#CybotCookiebotDialogBody {
+  max-width: 1140px !important;
+
+  #CybotCookiebotDialogBodyContent {
+    padding-bottom: 0;
+  }
+
+  /* Titel */
+
+  #CybotCookiebotDialogBodyContentTitle {
+    text-align: center;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    @media screen and (max-width: 640px) {
+      font-size: 17px !important;
+    }
+  }
+
+  /* Tekst */
+
+  #CybotCookiebotDialogBodyContentText {
+    font-size: 13px !important;
+    line-height: 24px !important;
+    color: #444;
+    text-align: center;
+    @media screen and (max-width: 640px) {
+      font-size: 13px !important;
+    }
+  }
+
+  /* Buttons */
+
+  #CybotCookiebotDialogBodyButtons {
+    text-align: center;
+
+    #CybotCookiebotDialogBodyButtonAccept {
+      color: $color-white !important;
+      border-radius: 3px;
+      background-color: $color-green !important;
+      box-shadow: 0 2px 0 0 #5b971b;
+      padding: 10px 30px;
+      font-weight: 600;
+      float: none;
+      font-size: 15px !important;
+      width: inherit !important;
+      @media screen and (max-width: 640px) {
+        font-size: 15px !important;
+        padding: 8px 20px;
+      }
+    }
+
+    #CybotCookiebotDialogBodyButtonDecline {
+      padding: 10px 15px;
+      font-size: 13px !important;
+      color: #666 !important;
+      width: inherit !important;
+      @media screen and (max-width: 640px) {
+        padding: 10px 0 !important;
+      }
+
+    }
+
+    #CybotCookiebotDialogBodyButtonDetails {
+      color: #666 !important;
+      float: none;
+      margin-top: 13px !important;
+      font-size: 13px !important;
+      padding-left: 20px;
+    }
+  }
+}
+
+/* Details */
+#CybotCookiebotDialogDetail {
+  @media screen and (max-width: 640px) {
+    padding: 10px 10px !important;
+  }
+}
+
+#CybotCookiebotDialog a,
+#CybotCookiebotDialog div,
+#CybotCookiebotDialogBodyContentTitle {
+  font-family: $font-primary !important;
+}

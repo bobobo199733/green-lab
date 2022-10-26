@@ -1,0 +1,1311 @@
+{
+  "h.key": "DXNLE-YBWWY-AR74T-WMD99-77VRA",
+  "h.d": "oracle.com",
+  "h.t": 1665143275662,
+  "h.cr": "d13d7c8fa6b9bdca626846d3b77786f9f67fdf90-7f553f34-58299125",
+  "session_id": "f25faf5d-cb06-485b-89c8-6224765f40da",
+  "site_domain": "oracle.com",
+  "beacon_url": "//173bf10e.akstat.io/",
+  "autorun": true,
+  "instrument_xhr": true,
+  "beacon_interval": 60,
+  "BW": { "enabled": false },
+  "RT": { "session_exp": 1800 },
+  "ResourceTiming": { "enabled": true, "splitAtPath": true },
+  "Errors": {
+    "enabled": true,
+    "monitorTimeout": true,
+    "monitorEvents": true,
+    "maxErrors": 20,
+    "sendAfterOnload": true,
+    "sendInterval": 1000
+  },
+  "Continuity": { "enabled": true },
+  "PageParams": {
+    "xhr": "subresource",
+    "pageGroups": [
+      {
+        "type": "Regexp",
+        "parameter1": "\\.oracle\\.com\\/($|\\?)",
+        "parameter2": "Homepage",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "\\/([a-zA-Z]{2}|asiasouth|lad|middleeast|middleeast-ar|africa)\\/customers/$",
+        "parameter2": "Customers HomePage Intl React",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/((.{2})(-.{2})?|africa|africa-fr|apac|asiasouth|cis|emea|lad|middleeast|middleeast-ar)/($|\\?)",
+        "parameter2": "Homepage International",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/news/*",
+        "parameter2": "NewsRoom",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/corporate/contact*",
+        "parameter2": "Corp Contact",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/corporate/acquisitions/*",
+        "parameter2": "Corp Acquisitions",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/corporate/executives/*",
+        "parameter2": "Corp Executives",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/corporate/*",
+        "parameter2": "Corporate",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/erp/$",
+        "parameter2": "ERP HomePage",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/erp/",
+        "parameter2": "ERP",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/human-capital-management/$",
+        "parameter2": "HCM HomePage",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/human-capital-management/",
+        "parameter2": "HCM Pages",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "\\/applications\\/$",
+        "parameter2": "Applications HomePage",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/java/technologies/downloads/",
+        "parameter2": "Java Downloads",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/downloads/licenses/*",
+        "parameter2": "Download Licenses",
+        "on": ["navigation", "xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/openworld/*",
+        "parameter2": "Openworld",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/javaone/*",
+        "parameter2": "Javaone",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/marketingcloud/*",
+        "parameter2": "Marketingcloud",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/legal/privacy/*",
+        "parameter2": "Privacy Policies",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "\\/database\\/$",
+        "parameter2": "Database HomePage",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/database/autonomous-database.html",
+        "parameter2": "Autonomous DB",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/virtualization/*",
+        "parameter2": "Virtualization",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/smb/*",
+        "parameter2": "Small Business",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/linux/*",
+        "parameter2": "Oracle Linux",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/404-error-page.html*",
+        "parameter2": "404 Page",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/splash/rpls/embargoed.html",
+        "parameter2": "WAF Embargo",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/splash/www/fw_error.html",
+        "parameter2": "WAF OCOM Site",
+        "on": ["navigation"]
+      },
+      {
+        "type": "URLPattern",
+        "parameter1": "https://www.oracle.com/splash/www/index.html*",
+        "parameter2": "o",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/splash/www/*",
+        "parameter2": "Splash OCOM Site",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/splash/profile/akamai_embedded_error.html",
+        "parameter2": "WAF Botman Profile",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/splash/profile/create_account.html",
+        "parameter2": "WAF Botman Custom Profile",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/splash/cloud/*",
+        "parameter2": "Splash Cloud Site",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/splash/java.net/*",
+        "parameter2": "Splash Java.net Site",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/splash/java/*",
+        "parameter2": "Splash Java Site",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/splash/*",
+        "parameter2": "Splash Pages Other",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/industries/*",
+        "parameter2": "Industries",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/mysql/*",
+        "parameter2": "MySQL",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/middleware/*",
+        "parameter2": "Middleware",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/cloudworld/($|\\?)",
+        "parameter2": "Cloudworld Homepage",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/cloudworld/register/($|\\?)",
+        "parameter2": "Cloudworld Register",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/cloudworld/executive-summit/*",
+        "parameter2": "Cloudworld Exec Summit",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/cloudworld*",
+        "parameter2": "Cloudworld",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/cloud/sign-in.html",
+        "parameter2": "Cloud Sign In",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/cloud/$",
+        "parameter2": "Cloud HomePage",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/cloud/free*",
+        "parameter2": "Cloud Free",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/cloud/costestimator/",
+        "parameter2": "Cost Estimator",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/cloud/pricing/*",
+        "parameter2": "Cloud Pricing",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/cloud/*",
+        "parameter2": "Cloud Group",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/servers/*",
+        "parameter2": "Servers",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/legal/*",
+        "parameter2": "Legal",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/code-one/*",
+        "parameter2": "Code-One",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/myprofile/*",
+        "parameter2": "My Profile",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/opn/",
+        "parameter2": "OPN",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/partner/*",
+        "parameter2": "Partner",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/partners/*",
+        "parameter2": "Partners",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/oms/social-influencer/*",
+        "parameter2": "Social Influencer",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/webfolder/community/*",
+        "parameter2": "Community",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/webfolder/assets/ebook/*",
+        "parameter2": "Ebooks",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/webfolder/technetwork/*",
+        "parameter2": "Technetwork Webfolder",
+        "on": ["navigation", "xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/technetwork/java/*",
+        "parameter2": "Technetwork Java",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/technetwork/articles/*",
+        "parameter2": "Technetwork Articles",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/technetwork/database/*",
+        "parameter2": "Technetwork Database",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/technetwork/sql-developer/*",
+        "parameter2": "Technetwork sql-developer",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/technetwork/licenses/*",
+        "parameter2": "Technetwork License",
+        "on": ["xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/technetwork/*",
+        "parameter2": "Technetwork",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "\\/product-navigator\\/\\?product\\=(.*)",
+        "parameter2": "Prod Nav Menu Action",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/product-navigator/_next/static/chunks/",
+        "parameter2": "Nodejs Chunks",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/product-navigator/home/*",
+        "parameter2": "Prod Nav HomePage",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/product-navigator/longformhp/*",
+        "parameter2": "Prod Nav Long Form",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/product-navigator/*",
+        "parameter2": "Product Nav v1",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "\\/([a-zA-Z]{2}|asiasouth|lad|middleeast|middleeast-ar|africa)\\/customers/",
+        "parameter2": "Customers Story Intl React",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/customers/$",
+        "parameter2": "Customers HomePage",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/customers/(applications|infrastructure)/",
+        "parameter2": "Customers Story WCS",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/customers/(.*).html",
+        "parameter2": "Customers Story WCS HTML",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/customers/*/",
+        "parameter2": "Customers Story React",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/node/oce/storyhub/prod/api/v1.1/assets/CONT8D7F9429D21A41C694BCC17557341140/native",
+        "parameter2": "Default Slider",
+        "on": ["navigation", "xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/node/",
+        "parameter2": "Node",
+        "on": ["xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/obrar.cgi*",
+        "parameter2": "obrar",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "https://jukebox.lookbookhq.com/*",
+        "parameter2": "Pathfactory - lookbookhq",
+        "on": ["navigation", "xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/search/press",
+        "parameter2": "Search Press",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/search/events",
+        "parameter2": "Search Events",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/search/customers",
+        "parameter2": "Search Customers",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/search/results-nodim*",
+        "parameter2": "Search Results Nodim",
+        "on": ["xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/search/askoraclesuggest/json*",
+        "parameter2": "Search AskOracleSuggest",
+        "subresource": true,
+        "on": ["xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/search/autosuggest.json/browse*",
+        "parameter2": "Search Autosuggest",
+        "on": ["xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "oracle.com/search/.*",
+        "parameter2": "Search",
+        "on": ["navigation", "xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "oracle.com/products/*",
+        "parameter2": "Products and Services",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/ocomheader/",
+        "parameter2": "OCOM Header",
+        "on": ["xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/visitorinfo/$",
+        "parameter2": "Visitor Info",
+        "on": ["xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/pdit-locale-map.json",
+        "parameter2": "PDIT Locale Map",
+        "on": ["xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "https://rules.atgsvcs.com/*",
+        "parameter2": "",
+        "ignore": true
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "https://edge.api.brightcove.com/*",
+        "parameter2": "",
+        "ignore": true
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "https://translate.googleapis.com/*",
+        "parameter2": "",
+        "ignore": true
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "https://trial-eum-clientnsv4-s.akamaihd.net",
+        "parameter2": "",
+        "ignore": true
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "https://oracleuniversal2-lh.akamaihd.net/*",
+        "parameter2": "",
+        "ignore": true
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/us/Error/index.html",
+        "parameter2": "WCC Error",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/scm/",
+        "parameter2": "SCM",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/technical-resources/",
+        "parameter2": "Technical Resources",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/security-alerts/",
+        "parameter2": "Security Alerts",
+        "on": ["navigation", "xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/partnernetwork/",
+        "parameter2": "Partner Network",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/oce/dc/",
+        "parameter2": "OCE Demand Center",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/webfolder/application/search/endeca/sitesearch/taxonomy/autosuggest.json",
+        "parameter2": "Endeca Autosuggest",
+        "on": ["xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/webfolder/",
+        "parameter2": "Webfolder",
+        "on": ["navigation", "xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/redbullracing/",
+        "parameter2": "Red Bull Racing",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/solaris/",
+        "parameter2": "Solaris",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/application-development/",
+        "parameter2": "Application Development",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/readiness/",
+        "parameter2": "Readiness",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/autonomous-database/",
+        "parameter2": "Autonomous Database",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/enterprise-manager/",
+        "parameter2": "Enterprise Manager",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/internet-of-things/",
+        "parameter2": "IOT",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/performance-manager/",
+        "parameter2": "Performance Manager",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/performance-management/",
+        "parameter2": "Performance Management",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/business-analytics/",
+        "parameter2": "Business Analytics",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/blockchain/",
+        "parameter2": "Blockchain",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/events/",
+        "parameter2": "Events",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/devops/",
+        "parameter2": "DevOps",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/integration/",
+        "parameter2": "Integration",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/artificial-intelligence/",
+        "parameter2": "Artificial Intelligence",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/startup/",
+        "parameter2": "Startup",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/security/",
+        "parameter2": "Security",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/documentation/",
+        "parameter2": "Documentation",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/big-data/",
+        "parameter2": "Big Data",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/it-infrastructure/",
+        "parameter2": "IT Infrastructure",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/data-science",
+        "parameter2": "Data Science",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/premier-league/",
+        "parameter2": "Premier League",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/webapps/maven/*",
+        "parameter2": "Maven",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/welcome-to-oracle/",
+        "parameter2": "Welcome to Oracle",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/asset/web/json/chat-translation-data.json",
+        "parameter2": "Chat-translation-data",
+        "on": ["xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/database/*",
+        "parameter2": "Database",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/java/technologies/*",
+        "parameter2": "Java Technologies",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/java/$",
+        "parameter2": "Java Homepage",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/java/*",
+        "parameter2": "Java",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/akam-sw.js",
+        "parameter2": "akam-sw.js",
+        "on": ["navigation", "xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/longformhp/",
+        "parameter2": "HomePage Long Form",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/explore/*",
+        "parameter2": "Explore",
+        "on": ["navigation", "xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/chatbot/*",
+        "parameter2": "Chabot",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/content-management/*",
+        "parameter2": "Content Management",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/food-beverage/*",
+        "parameter2": "Food Beverage",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/applications/*",
+        "parameter2": "Applications",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/support/*",
+        "parameter2": "Support Services",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/cx/*",
+        "parameter2": "CX Pages",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/education/*",
+        "parameter2": "Education",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/a/ocom/docs/oracle-learning-email.html",
+        "parameter2": "Learning Email",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/a/ocom/docs/*",
+        "parameter2": "A Ocom Docs",
+        "on": ["navigation", "xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/a/ocom/img/",
+        "parameter2": "A Ocom Img",
+        "on": ["xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/a/tech/docs/*",
+        "parameter2": "A Tech Docs",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/a/tech/img/*",
+        "parameter2": "A Tech Img",
+        "on": ["navigation", "xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/sitemap.html",
+        "parameter2": "Sitemap html",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/topics/*",
+        "parameter2": "Topics",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/sustainability/*",
+        "parameter2": "Sustainability",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/ce-help/*",
+        "parameter2": "CE Help",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/downloads/*",
+        "parameter2": "Downloads",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/tools/*",
+        "parameter2": "Tools",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/elq-demo-form.html*",
+        "parameter2": "Elq Demo Form",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/webapps/maven/*",
+        "parameter2": "Maven - webapps",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/maven/public/*",
+        "parameter2": "Maven - public",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/((.{2})(-.{2})?|africa|africa-fr|apac|asiasouth|cis|emea|lad|middleeast|middleeast-ar)/.*",
+        "parameter2": "International Pages $1",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/upgrade-browser/",
+        "parameter2": "Upgrade Browser",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/engineered-systems/",
+        "parameter2": "Engineered Systems",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/consulting/*",
+        "parameter2": "Consulting",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/goto/*",
+        "parameter2": "Goto",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/what-is-data-science/*",
+        "parameter2": "what-is-data-science",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/data-lakehouse/*",
+        "parameter2": "Data Lakehouse",
+        "on": ["navigation"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/global-menu-v2/",
+        "parameter2": "Global Menu v2",
+        "on": ["xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/universal-menu/",
+        "parameter2": "Universal Menu",
+        "on": ["navigation", "xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/oci-menu-v2/",
+        "parameter2": "OCI Menu v2",
+        "on": ["xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/footermenu/",
+        "parameter2": "footermenu",
+        "on": ["xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "https://dc.oracleinfinity.io/*",
+        "parameter2": "Infinity",
+        "on": ["xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/a/ocom/docs/global-json/feature-banner-content.json",
+        "parameter2": "feature banner content",
+        "on": ["xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "https://login.oci.oraclecloud.com/*",
+        "parameter2": "OCI Login",
+        "on": ["xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "https://www.oracle.com/akam/*",
+        "parameter2": "Akamai Pixel",
+        "on": ["xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/asset/web/json/ac-translation-data.json",
+        "parameter2": "ac translation data",
+        "on": ["xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/docs/tech/download-licenses.json",
+        "parameter2": "download license - tech docs",
+        "on": ["xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/downloads/licenses/*",
+        "parameter2": "download license",
+        "on": ["xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "/compendium/*",
+        "parameter2": "Compendium",
+        "on": ["xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "https://mikedoac*",
+        "parameter2": "Mikedoac",
+        "on": ["xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "https://www.google-analytics.com/*",
+        "parameter2": "Google Analytics",
+        "on": ["navigation", "xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "https://www.oracle.com/json/twitterfeed-oraclelive.json*",
+        "parameter2": "Twitterfeed",
+        "on": ["navigation", "xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "manifest.prod.boltdns.net/*",
+        "parameter2": "",
+        "ignore": true
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "cdp.cloud.unity3d.com/*",
+        "parameter2": "",
+        "ignore": true
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "config.uca.cloud.unity3d.com/*",
+        "parameter2": "",
+        "ignore": true
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "https://cdn.pathfactory.com/*",
+        "parameter2": "PathFactory",
+        "on": ["xhr"]
+      },
+      {
+        "type": "Regexp",
+        "parameter1": "https://bcbolt446c5271-a.akamaihd.net/*",
+        "parameter2": "brightcove bcbolt",
+        "on": ["navigation", "xhr"]
+      }
+    ],
+    "customMetrics": [
+      {
+        "name": "OW Reg View",
+        "index": 0,
+        "type": "URLPatternType",
+        "label": "cmet.OW_Reg_View",
+        "dataType": "Number",
+        "xhr_ok": true,
+        "parameter1": "*/openworld/register.html?*"
+      },
+      {
+        "name": "OW Compare",
+        "index": 2,
+        "type": "URLPatternType",
+        "label": "cmet.OW_Compare",
+        "dataType": "Number",
+        "xhr_ok": true,
+        "parameter1": "*/openworld/compare-benefits.html?*"
+      }
+    ],
+    "customTimers": [
+      {
+        "name": "Truste",
+        "index": 0,
+        "type": "ResourceGroup",
+        "label": "custom0",
+        "value": {
+          "*": {
+            "on": ["onload"],
+            "resources": [
+              { "type": "resource", "value": "https://consent.truste.com*" },
+              { "type": "resource", "value": "https://consent.trustarc.com*" }
+            ]
+          }
+        }
+      },
+      {
+        "name": "BlueKai",
+        "index": 1,
+        "type": "ResourceTiming",
+        "label": "custom1",
+        "start": "startTime",
+        "end": "responseEnd",
+        "url": "https://tags.bluekai.com*"
+      },
+      {
+        "name": "Eloqua",
+        "index": 4,
+        "type": "ResourceTiming",
+        "label": "custom4",
+        "start": "startTime",
+        "end": "responseEnd",
+        "url": "*.t.eloqua.com*"
+      },
+      {
+        "name": "Infinity",
+        "index": 5,
+        "type": "ResourceTiming",
+        "label": "custom5",
+        "xhr_ok": true,
+        "start": "startTime",
+        "end": "responseEnd",
+        "url": "*.oracleinfinity.io*"
+      },
+      {
+        "name": "Truste Script",
+        "index": 7,
+        "type": "ResourceTiming",
+        "label": "custom7",
+        "start": "startTime",
+        "end": "responseEnd",
+        "url": "https://consent.truste.com*"
+      },
+      {
+        "name": "TrustArc Script",
+        "index": 8,
+        "type": "ResourceTiming",
+        "label": "custom8",
+        "start": "startTime",
+        "end": "responseEnd",
+        "url": "https://consent.trustarc.com*"
+      },
+      {
+        "name": "Eloqua svrGP",
+        "index": 9,
+        "type": "ResourceTiming",
+        "label": "custom9",
+        "start": "startTime",
+        "end": "responseEnd",
+        "url": "https://go.oracle.com/visitor/v200/svrGP*"
+      },
+      {
+        "name": "Nodejs Chunks",
+        "index": 6,
+        "type": "ResourceTiming",
+        "label": "custom6",
+        "xhr_ok": true,
+        "start": "startTime",
+        "end": "responseEnd",
+        "url": "https://www.oracle.com/product-navigator/_next/static/chunks/*"
+      },
+      {
+        "name": "Tealium",
+        "index": 3,
+        "type": "ResourceTiming",
+        "label": "custom3",
+        "xhr_ok": true,
+        "start": "startTime",
+        "end": "responseEnd",
+        "url": "https://tms.oracle.com*"
+      },
+      {
+        "name": "mpulse",
+        "index": 2,
+        "type": "ResourceTiming",
+        "label": "custom2",
+        "xhr_ok": true,
+        "start": "startTime",
+        "end": "responseEnd",
+        "url": "https://s.go-mpulse.net/boomerang/*"
+      }
+    ],
+    "customDimensions": [
+      {
+        "name": "subDomain",
+        "index": 0,
+        "type": "JavaScriptVar",
+        "label": "cdim.subDomain",
+        "dataType": "Text",
+        "xhr_ok": true,
+        "varName": "document.domain"
+      },
+      {
+        "name": "Language",
+        "index": 1,
+        "type": "JavaScriptVar",
+        "label": "cdim.Language",
+        "dataType": "Text",
+        "xhr_ok": true,
+        "varName": "s_account[2]"
+      },
+      {
+        "name": "ConnectionType",
+        "index": 2,
+        "type": "JavaScriptVar",
+        "label": "cdim.ConnectionType",
+        "dataType": "Text",
+        "xhr_ok": true,
+        "varName": "navigator.connection.effectiveType"
+      },
+      {
+        "name": "mpulseDim",
+        "index": 5,
+        "type": "JavaScriptVar",
+        "label": "cdim.mpulseDim",
+        "dataType": "Text",
+        "xhr_ok": true,
+        "parameter1": "https://www.oracle.com*",
+        "varName": "mpulseDim"
+      },
+      {
+        "name": "mpulsehp",
+        "index": 8,
+        "type": "JavaScriptVar",
+        "label": "cdim.mpulsehp",
+        "dataType": "Text",
+        "xhr_ok": true,
+        "parameter1": "https://www.oracle.com/*",
+        "varName": "mpulsehp"
+      },
+      {
+        "name": "BlankComponent",
+        "index": 4,
+        "type": "JavaScriptVar",
+        "label": "cdim.BlankComponent",
+        "dataType": "Text",
+        "varName": "defaultComponent"
+      }
+    ],
+    "urlPatterns": [],
+    "params": true
+  },
+  "Akamai": { "enabled": true, "dns_prefetch_enabled": true },
+  "user_ip": "45.84.40.0"
+}

@@ -1,0 +1,204 @@
+.container-Jo5XNTMJ {
+    color: #131722;
+    display: grid;
+    justify-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center
+}
+
+html.theme-dark .container-Jo5XNTMJ {
+    color: #fff
+}
+
+.icon-Jo5XNTMJ {
+    display: inline-block;
+    height: 36px;
+    margin-bottom: 4px;
+    width: 36px
+}
+
+@media screen and (min-width:1280px) {
+    .icon-Jo5XNTMJ {
+        height: 56px;
+        width: 56px
+    }
+}
+
+@media screen and (min-width:1920px) {
+    .icon-Jo5XNTMJ {
+        height: 90px;
+        margin-bottom: 12px;
+        width: 90px
+    }
+}
+
+.icon-Jo5XNTMJ svg {
+    height: 100%;
+    width: 100%
+}
+
+.title-Jo5XNTMJ {
+    font-feature-settings: "tnum" on, "lnum" on;
+    font-family: EuclidCircularSemibold, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -.02em;
+    line-height: 40px;
+    margin-bottom: var(--v-rhythm-header-3-space)
+}
+
+@media screen and (min-width:768px) {
+    .title-Jo5XNTMJ {
+        font-feature-settings: "tnum" on, "lnum" on;
+        font-family: EuclidCircularSemibold, sans-serif;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: -.02em;
+        line-height: 56px
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .title-Jo5XNTMJ {
+        font-feature-settings: "tnum" on, "lnum" on;
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 80px
+    }
+    .title-Jo5XNTMJ,
+    body.is-widgetbar-expanded .title-Jo5XNTMJ {
+        font-family: EuclidCircularSemibold, sans-serif;
+        letter-spacing: -.02em
+    }
+    body.is-widgetbar-expanded .title-Jo5XNTMJ {
+        font-feature-settings: "tnum" on, "lnum" on;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 56px;
+        margin-bottom: var(--v-rhythm-header-3-space-tablet)
+    }
+}
+
+@media screen and (min-width:1920px) {
+    body.is-widgetbar-expanded .title-Jo5XNTMJ {
+        font-feature-settings: "tnum" on, "lnum" on;
+        font-family: EuclidCircularSemibold, sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: -.02em;
+        line-height: 40px;
+        margin-bottom: var(--v-rhythm-header-3-space)
+    }
+    @media screen and (min-width:768px) {
+        body.is-widgetbar-expanded .title-Jo5XNTMJ {
+            font-feature-settings: "tnum" on, "lnum" on;
+            font-family: EuclidCircularSemibold, sans-serif;
+            font-size: 56px;
+            font-style: normal;
+            font-weight: 600;
+            letter-spacing: -.02em;
+            line-height: 56px
+        }
+    }
+    @media screen and (min-width:1280px) {
+        body.is-widgetbar-expanded .title-Jo5XNTMJ {
+            font-feature-settings: "tnum" on, "lnum" on;
+            font-family: EuclidCircularSemibold, sans-serif;
+            font-size: 80px;
+            font-style: normal;
+            font-weight: 600;
+            letter-spacing: -.02em;
+            line-height: 80px
+        }
+    }
+}
+
+.title-Jo5XNTMJ.withGradient-Jo5XNTMJ {
+    -webkit-text-fill-color: #0000;
+    text-fill-color: #0000;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(89.71deg, #4f35ed .19%, #ff1f00 99.69%);
+    -webkit-user-select: none;
+    user-select: none
+}
+
+.description-Jo5XNTMJ {
+    font-feature-settings: "tnum" on, "lnum" on;
+    font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center
+}
+
+@media screen and (min-width:768px) {
+    .description-Jo5XNTMJ {
+        font-feature-settings: "tnum" on, "lnum" on;
+        font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .description-Jo5XNTMJ {
+        font-feature-settings: "tnum" on, "lnum" on;
+        font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px
+    }
+}
+
+@media screen and (min-width:1440px) {
+    body.is-widgetbar-expanded .description-Jo5XNTMJ {
+        font-feature-settings: "tnum" on, "lnum" on;
+        font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px
+    }
+}
+
+@media screen and (min-width:1920px) {
+    body.is-widgetbar-expanded .description-Jo5XNTMJ {
+        font-feature-settings: "tnum" on, "lnum" on;
+        font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px
+    }
+    @media screen and (min-width:768px) {
+        body.is-widgetbar-expanded .description-Jo5XNTMJ {
+            font-feature-settings: "tnum" on, "lnum" on;
+            font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 32px
+        }
+    }
+    @media screen and (min-width:1280px) {
+        body.is-widgetbar-expanded .description-Jo5XNTMJ {
+            font-feature-settings: "tnum" on, "lnum" on;
+            font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 40px
+        }
+    }
+}

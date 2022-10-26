@@ -1,0 +1,52 @@
+.options-_sydcf90 {
+    display: inline-block;
+    -webkit-user-select: none;
+    user-select: none;
+    white-space: nowrap
+}
+
+.option-_sydcf90 {
+    border-radius: 4px;
+    color: #131722;
+    cursor: default;
+    display: inline-block;
+    font-size: 14px;
+    height: 100%;
+    margin-right: 8px;
+    outline: none;
+    padding: 6px 8px
+}
+
+html.theme-dark .option-_sydcf90 {
+    color: #d1d4dc
+}
+
+@media (any-hover:hover) {
+    .option-_sydcf90:hover {
+        background-color: #f0f3fa
+    }
+    html.theme-dark .option-_sydcf90:hover {
+        background-color: #2a2e39
+    }
+}
+
+.option-_sydcf90:last-child {
+    margin-right: 0
+}
+
+.option-_sydcf90 .input-_sydcf90 {
+    display: none
+}
+
+.optionSelected-_sydcf90 {
+    background-color: #3179f52e
+}
+
+@media (any-hover:hover) {
+    .optionSelected-_sydcf90:hover {
+        background-color: #f0f3fa
+    }
+    html.theme-dark .optionSelected-_sydcf90:hover {
+        background-color: #2a2e39
+    }
+}

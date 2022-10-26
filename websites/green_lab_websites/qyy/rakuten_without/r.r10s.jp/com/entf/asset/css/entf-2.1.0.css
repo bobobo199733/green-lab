@@ -1,0 +1,457 @@
+@charset "euc-jp";
+/* notification popup https-support [div#ritNotification]
+----------------------------*/
+
+div#ritNotification .ritNotificArea {
+    display: none;
+    z-index: 6666 !important;
+    overflow-x: hidden !important;
+    overflow-y: scroll !important;
+    width: 635px !important;
+    max-height: 448px;
+}
+
+div#ritNotification .ntfHelpCnt {
+    height: 40px !important;
+}
+
+div#ritNotification .ntfHelpCnt .ntfHelp {
+    float: right !important;
+    margin: 12px 24px 12px 0 !important;
+    background: url(https://r.r10s.jp/com/img/home/201405/tri_f2ab00.gif) no-repeat scroll 0 3px !important;
+    padding: 0 0 0 7px !important;
+}
+
+/* ntfEduBanner */
+
+div#ritNotification .ntfEduBanner {
+    padding: 10px 0px 0px 0px !important;
+}
+
+div#ritNotification .ntfEduBanner img {
+    width: 100% !important;
+    height: auto !important;
+}
+
+/* ntfArticle */
+
+div#ritNotification .ritNotificArea .ntfArticle {
+    padding: 10px 10px 0 !important;
+    margin: 0px !important;
+    width: 600px !important;
+}
+
+div#ritNotification .ritNotificArea .ntfArticle:not(:nth-last-child(3)) {
+    border-bottom: dotted 1px #cecece !important;
+}
+
+div#ritNotification .ritNotificArea .ntfArticle .ntfRead {
+    width: 430px !important;
+    padding-bottom: 14px !important;
+    overflow: hidden !important;
+    zoom: 1 !important;
+    line-height: 1.2em !important;
+}
+
+div#ritNotification .ritNotificArea .ntfArticle .ntfReadTxt {
+    font-weight: bold !important;
+    float: left !important;
+}
+
+div#ritNotification .ritNotificArea .ntfArticle .ntfTime {
+    float: right !important;
+    color: #717171 !important;
+    border: 0 !important;
+    font-variant: normal !important;
+}
+
+div#ritNotification .ritNotificArea .ntfArticle .ntfTxtTime {
+    float: right !important;
+    line-height: 1.1em !important;
+}
+
+div#ritNotification .ritNotificArea .ntfArticle .ntfItemCnt {
+    overflow: hidden !important;
+    zoom: 1 !important;
+    padding-bottom: 10px !important;
+}
+
+div#ritNotification .ritNotificArea .ntfArticle .ntfThumb {
+    width: 80px !important;
+    padding: 0 10px 0 0 !important;
+    float: left !important;
+}
+
+div#ritNotification .ritNotificArea .ntfArticle .ntfThumb img {
+    max-width: 80px !important;
+    max-height: 80px !important;
+}
+
+/* IE8 */
+
+div#ritNotification .ritNotificArea .ntfArticle .ntfThumb img {
+    width: 100%\9 !important;
+}
+
+/* IE9 */
+
+div#ritNotification .ritNotificArea .ntfArticle .ntfThumb img:not(:target) {
+    width: 100%\9 !important;
+}
+
+div#ritNotification .ritNotificArea .ntfArticle .ntfTxt {
+    width: 430px !important;
+    float: left !important;
+}
+
+div#ritNotification .ritNotificArea .ntfArticle .ntfTxt .ntfTxtCnt {
+    width: 430px !important;
+}
+
+div#ritNotification .ntfArticle .ntfTxt .ntfGroupSvcTitle {
+    padding-bottom: 10px !important;
+    font-weight: bold !important;
+    width: 260px !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    zoom: 1 !important;
+}
+
+div#ritNotification .ntfArticle .ntfTxt .ntfTxtList {
+    padding-bottom: 7px !important;
+    width: 430px !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    zoom: 1 !important;
+}
+
+div#ritNotification .ntfArticle .ntfTxt .ntfTxtListTtl {
+    padding-right: 10px !important;
+}
+
+div#ritNotification .ntfArticle .ntfTxt .ntfTxtListDay {
+    padding-right: 10px !important;
+}
+
+div#ritNotification .ntfArticle .ntfTxt .ntfTxtShopNameCnt {
+    zoom: 1 !important;
+    overflow: hidden !important;
+}
+
+div#ritNotification .ntfArticle .ntfTxt .ntfTxtShopName {
+    font-size: 10px !important;
+    width: 400px !important;
+    float: left !important;
+}
+
+div#ritNotification .ntfArticle .ntfTxt .ntfTxtShopName img {
+    padding: 0 3px 2px 0 !important;
+}
+
+div#ritNotification .ntfArticle .ntfTxt .ntfLimit {
+    float: left !important;
+    width: 70px !important;
+}
+
+div#ritNotification .ntfDealEndDate .ntfDateDesc {
+    float: left !important;
+    width: 100px !important;
+}
+
+div#ritNotification .ntfArticle .ntfTxt .ntfLimitFixed {
+    padding-right: 10px !important;
+    float: left !important;
+    width: 52px !important;
+    display: block !important;
+}
+
+div#ritNotification .ntfArticle .ntfTxt .ntfNumber {
+    padding-right: 5px !important;
+    font-weight: bold !important;
+    color: #bf0000 !important;
+    float: left !important;
+}
+
+div#ritNotification .ritNotificArea .ntfArticle .ntfName {
+    display: block !important;
+}
+
+div#ritNotification .ritNotificArea .ntfArticle .ntfName img {
+    padding: 0 3px 3px 0 !important;
+}
+
+div#ritNotification .ritNotificArea .ntfArticle .ntfPrice,
+div#ritNotification .ntfArticle .ntfTxt .ntfPointClearFix .ntfPointBackInfo {
+    text-align: left !important;
+    font-weight: bold !important;
+    color: #bf0000 !important;
+    display: block !important;
+    padding-bottom: 7px !important;
+}
+
+div#ritNotification .ritNotificArea .ntfArticle .ntfDefPrice {
+    color: #000000 !important;
+    font-weight: normal !important;
+    text-decoration: line-through !important;
+    padding-right: 5px !important;
+}
+
+div#ritNotification .ntfArticle .ntfTxt .ntfPointClearFix {
+    width: 430px !important;
+    overflow: hidden !important;
+    zoom: 1 !important;
+    padding-bottom: 7px !important;
+}
+
+div#ritNotification .ntfArticle .ntfTxt .ntfPointClearFix .ntfPointUp {
+    float: left !important;
+    width: 205px !important;
+    overflow: hidden !important;
+    zoom: 1 !important;
+}
+
+div#ritNotification .ntfArticle .ntfTxt .ntfPointClearFix .ntfDealEndDate,
+div#ritNotification .ntfArticle .ntfTxt .ntfPointClearFix .ntfDealInfo {
+    width: 350px !important;
+    overflow: hidden !important;
+    zoom: 1 !important;
+}
+
+div#ritNotification .ntfArticle .ntfTxt .ntfPointClearFix .ntfDateTxt {
+    float: left !important;
+    width: 200px !important;
+    overflow: hidden !important;
+    zoom: 1 !important;
+}
+
+div#ritNotification .ntfArticle .ntfTxt .ntfDateClearFix {
+    overflow: hidden !important;
+    zoom: 1 !important;
+}
+
+div#ritNotification .ritNotificArea .ntfArticle .ntfPointReadTxt,
+div#ritNotification .ritNotificArea .ntfArticle .ntfCouponReadTxt,
+div#ritNotification .ritNotificArea .ntfArticle .ntfRankReadTxt {
+    font-weight: bold !important;
+    float: left !important;
+}
+
+div#ritNotification .ntfArticle .ntfTxt .ntfPointShop {
+    float: left !important;
+    padding-right: 10px !important;
+}
+
+div#ritNotification .ntfArticle .ntfTxt .ntfPointPrice {
+    float: left !important;
+    padding-right: 10px !important;
+}
+
+div#ritNotification .ntfArticle .ntfTxt .ntfItemPrice {
+    float: left !important;
+    width: 100px !important;
+}
+
+div#ritNotification .ntfArticle .ntfTxt .ntfPoint {
+    font-weight: bold !important;
+    color: #bf0000 !important;
+    float: left !important;
+}
+
+div#ritNotification .ntfArticle .ntfTxt .ntfLimitedPoint {
+    font-weight: bold !important;
+    color: #bf0000 !important;
+}
+
+div#ritNotification .ntfArticle .ntfDate {
+    float: left !important;
+}
+
+div#ritNotification .ntfHighlight {
+    background: #f6f6f6 !important;
+}
+
+div#ritNotification .ntfoff {
+    font-weight: bold !important;
+    color: #bf0000 !important;
+    display: block !important;
+    width: 100px !important;
+}
+
+div#ritNotification .ntfKonbiniDate {
+    font-weight: bold !important;
+    color: #bf0000 !important;
+    display: block !important;
+    width: 150px !important;
+}
+
+div#ritNotification .ntfOrderDate {
+    font-weight: bold !important;
+    color: #bf0000 !important;
+    display: block !important;
+}
+
+div#ritNotification .ntfArticle a {
+    text-decoration: none !important;
+}
+
+div#ritNotification .ntfArticle a:hover {
+    text-decoration: underline !important;
+}
+
+div#ritNotification .ntfHelpCnt .ntfHelp a {
+    text-decoration: none !important;
+}
+
+div#ritNotification .ntfHelpCnt .ntfHelp a:hover {
+    text-decoration: underline !important;
+}
+
+/* Info */
+
+div#ritNotification .ritNotificInfo,
+div#ritNotification .ritNtfGroupInfo {
+    display: none;
+    background: #ffffff !important;
+    z-index: 6666 !important;
+    overflow: hidden !important;
+    margin: 8px 19px 8px 23px !important;
+}
+
+div#ritNotification .ritNotificInfo .ntfEmptyTtl,
+div#ritNotification .ritNtfGroupInfo .ntfEmptyTtl {
+    font-weight: bold !important;
+    display: block !important;
+    padding-bottom: 15px !important;
+}
+
+div#ritNotification .ritNotificInfo .ntfLoginTtl {
+    display: block !important;
+    padding-bottom: 7px !important;
+}
+
+div#ritNotification .ritNotificInfo .ntfLoginTxtTtl {
+    padding-bottom: 7px !important;
+}
+
+div#ritNotification .ritNotificInfo .ntfLoginTxt {
+    line-height: 1.7em !important;
+}
+
+div#ritNotification .ritNotificInfo .ntfLoginLink {
+    font-weight: bold !important;
+}
+
+div#ritNotification .ritNotificInfo .ntfDesc,
+div#ritNotification .ritNtfGroupInfo .ntfDesc {
+    margin: 15px 0 0 !important;
+}
+
+div#ritNotification .ritNotificInfo .ntfDesc li,
+div#ritNotification .ritNtfGroupInfo .ntfDesc li {
+    padding-bottom: 7px !important;
+}
+
+div#ritNotification .ritNotificInfo .ntfFt,
+div#ritNotification .ritNtfGroupInfo .ntfFt {
+    overflow: hidden !important;
+    zoom: 1 !important;
+}
+
+div#ritNotification .ntfSampleTxt {
+    width: 370px !important;
+    float: left !important;
+    padding-top: 20px !important;
+}
+
+div#ritNotification .ritNotificInfo .ntfSampleBtn,
+div#ritNotification .ritNtfGroupInfo .ntfSampleBtn {
+    margin-top: 5px !important;
+    width: 77px !important;
+    float: left !important;
+}
+
+/* shop icon text */
+
+div#ritNotification .ntfArticle .ntfTxt .ntfTxtShopName {
+    width: 400px !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+/* shop point shop name text */
+
+div#ritNotification .ntfArticle .ntfTxt .ntfName {
+    width: 400px !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+div#ritNotification .bl-hot {
+    cursor: pointer !important;
+}
+
+div#ritNotification .bl-hot * {
+    cursor: pointer !important;
+}
+
+div#ritNotification p.ntfTtlCnt * {
+    cursor: pointer !important;
+}
+
+div#ritNotification img {
+    vertical-align: bottom !important;
+    _vertical-align: bottom !important;
+}
+
+div#ritNotification ul,
+div#ritNotification ul>* {
+    list-style-type: none !important;
+    zoom: 1 !important;
+    vertical-align: bottom !important;
+}
+
+div#ritNotification img {
+    vertical-align: middle !important;
+}
+
+div#ritNotification {
+    width: 635px !important;
+}
+
+#ritNtfContentArea {
+    width: 635px !important;
+    overflow-x: hidden !important;
+    overflow-y: scroll !important;
+}
+
+div#ritNotification .ritNtfContent {
+    margin: 0 auto !important;
+    padding: 0 !important;
+    width: 600px !important;
+}
+
+div#ritNtfTitleCurrSvc.ritNtfContent {
+    margin-bottom: 8px !important;
+}
+
+div#ritNtfTitleOtherSvc.ritNtfContent {
+    margin-bottom: 8px !important;
+    margin-top: 21px !important;
+}
+
+div#ritNotification .ritNtfContent:only-child {
+    border: none !important;
+}
+
+div#ritNotification .ritNotificArea .ntfArticle:first-child {
+    border-top: 1px solid #ccc !important;
+}
+
+div#ritNtfContent_curr_svc,
+div#ritNtfContent_other_svc {
+    border-bottom: 1px solid #ccc !important;
+}

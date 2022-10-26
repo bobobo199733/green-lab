@@ -1,0 +1,74 @@
+/* NOTE: If we change anything in this file we must manually invalidate the cache for cloudfront purposes. */
+/* Overpass-light 300 */
+@font-face {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 300;
+  font-display: fallback;
+  src: local(""), url("./Overpass-Light.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */ url("./Overpass-Light.woff")
+      format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* Overpass-regular 400 */
+@font-face {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+  src: local(""), url("./Overpass-Regular.woff2") format("woff2"),
+    url("Overpass-Regular.woff") format("woff");
+}
+/* Overpass-medium 500 */
+@font-face {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 500;
+  font-display: fallback;
+  src: local(""), url("./Overpass-Medium.woff2") format("woff2"),
+    url("Overpass-Medium.woff") format("woff");
+}
+/* Overpass-bold 700 */
+@font-face {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 700;
+  font-display: fallback;
+  src: local(""), url("./Overpass-Bold.woff2") format("woff2"),
+    url("Overpass-Bold.woff") format("woff");
+}
+/* Overpass-light-italic 300 */
+@font-face {
+  font-family: "Overpass";
+  font-style: italic;
+  font-weight: 300;
+  font-display: fallback;
+  src: local(""), url("./Overpass-LightItalic.woff2") format("woff2"),
+    url("Overpass-LightItalic.woff") format("woff");
+}
+/* Overpass-italic 400 */
+@font-face {
+  font-family: "Overpass";
+  font-style: italic;
+  font-weight: 400;
+  font-display: fallback;
+  src: local(""), url("./Overpass-Italic.woff2") format("woff2"),
+    url("Overpass-Italic.woff") format("woff");
+}
+/* Overpass-medium-italic 500 */
+@font-face {
+  font-family: "Overpass";
+  font-style: italic;
+  font-weight: 500;
+  font-display: fallback;
+  src: local(""), url("./Overpass-Medium.woff2") format("woff2"),
+    url("Overpass-Medium.woff") format("woff");
+}
+/* Overpass-bold-italic 700 */
+@font-face {
+  font-family: "Overpass";
+  font-style: italic;
+  font-weight: 700;
+  font-display: fallback;
+  src: local(""), url("./Overpass-Bold.woff2") format("woff2"),
+    url("Overpass-Bold.woff") format("woff");
+}

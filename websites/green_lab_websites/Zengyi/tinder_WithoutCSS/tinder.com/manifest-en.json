@@ -1,0 +1,79 @@
+{
+  "name": "Tinder",
+  "short_name": "Tinder",
+  "categories": [
+    "lifestyle",
+    "social",
+    "dating"
+  ],
+  "start_url": "index.html?utm_source=homescreen&lang=en",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff",
+  "theme_color": "#fff",
+  "description": "With 55 billion matches to date, Tinder® is the world’s most popular dating app, making it the place to meet new people.",
+  "gcm_sender_id": "465293127427",
+  "icons": [
+    {
+      "src": "/static/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/android-chrome-192x192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/static/android-chrome-512x512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=com.tinder",
+      "id": "com.tinder"
+    },
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=com.tinder.tinderlite",
+      "id": "com.tinder.tinderlite"
+    },
+    {
+      "platform": "itunes",
+      "url": "https://itunes.apple.com/app/tinder/id547702041"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/static/screenshots/en/like.png",
+      "sizes": "750x1334",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/screenshots/en/discover.png",
+      "sizes": "750x1334",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/screenshots/en/match.png",
+      "sizes": "750x1334",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/screenshots/en/chat.png",
+      "sizes": "750x1334",
+      "type": "image/png"
+    }
+  ],
+  "title": "Tinder"
+}

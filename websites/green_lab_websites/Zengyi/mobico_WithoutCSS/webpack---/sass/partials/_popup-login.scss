@@ -1,0 +1,47 @@
+#login-form-popup {
+  .account-container {
+    h3 {
+      letter-spacing: 0;
+      padding-bottom: 15px;
+      text-transform: none !important;
+    }
+
+    label {
+      font-weight: normal;
+    }
+
+    input[type='submit'],
+    button[type='submit']{
+      border-radius: 5px;
+      color: $color-white;
+      background-color: $color-orange;
+      box-shadow: 0 -3px 0 darken($color-orange, 10%) inset;
+      border: none;
+      font-size: 16px;
+      width: 100%;
+      display: block;
+      margin: 0;
+      padding: 0;
+      text-transform: none;
+      letter-spacing: 0;
+    }
+
+    .account-login-inner {
+      .woocommerce-form__label-for-checkbox {
+        display: block;
+        margin-left: 0;
+        padding-top: 10px;
+      }
+    }
+
+    .account-register-inner {
+
+    }
+
+    .create-account {
+      span {
+        font-size: 85%;
+      }
+    }
+  }
+}

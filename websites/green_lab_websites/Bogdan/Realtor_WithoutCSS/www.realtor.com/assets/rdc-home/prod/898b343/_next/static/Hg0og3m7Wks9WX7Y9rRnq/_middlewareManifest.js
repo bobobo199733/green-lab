@@ -1,0 +1,4 @@
+self.__MIDDLEWARE_MANIFEST = [
+    ["\u002F", false]
+];
+self.__MIDDLEWARE_MANIFEST_CB && self.__MIDDLEWARE_MANIFEST_CB()

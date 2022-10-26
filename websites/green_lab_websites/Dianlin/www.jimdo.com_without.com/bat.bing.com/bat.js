@@ -1,0 +1,1 @@
+No Content: https://bat.bing.com/bat.js

@@ -1,0 +1,70 @@
+.arrowBlock-GktTKi5q {
+    animation: fadeInOpacity-GktTKi5q .7s ease 1.5s forwards;
+    bottom: 20px;
+    display: none;
+    justify-content: center;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1
+}
+
+@media screen and (min-width:1024px) {
+    .arrowBlock-GktTKi5q {
+        display: flex
+    }
+}
+
+.isVisible-GktTKi5q {
+    animation: fadeInOpacity-GktTKi5q .7s ease 1.5s forwards
+}
+
+@keyframes fadeInOpacity-GktTKi5q {
+    0% {
+        opacity: 0;
+        visibility: hidden
+    }
+    to {
+        opacity: 1;
+        visibility: visible
+    }
+}
+
+.isHidden-GktTKi5q {
+    animation: fadeOutOpacity-GktTKi5q .7s ease forwards
+}
+
+@keyframes fadeOutOpacity-GktTKi5q {
+    0% {
+        opacity: 1;
+        visibility: visible
+    }
+    to {
+        opacity: 0;
+        visibility: hidden
+    }
+}
+
+.arrowIcon-GktTKi5q {
+    animation: bubbleAnimation-GktTKi5q 2s ease-in-out 0s infinite;
+    color: #d1d4dc
+}
+
+@media screen and (max-width:1019px) {
+    .arrowIcon-GktTKi5q {
+        display: none
+    }
+}
+
+@keyframes bubbleAnimation-GktTKi5q {
+    0% {
+        transform: rotate(-90deg) translateX(5px)
+    }
+    50% {
+        transform: rotate(-90deg) translateX(-5px)
+    }
+    to {
+        transform: rotate(-90deg) translateX(5px)
+    }
+}

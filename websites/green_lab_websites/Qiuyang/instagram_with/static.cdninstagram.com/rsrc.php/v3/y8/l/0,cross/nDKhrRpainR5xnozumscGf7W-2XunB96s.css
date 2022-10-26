@@ -1,0 +1,447 @@
+._aapt {
+    align-items: stretch;
+    border: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    font: inherit;
+    font-size: 100%;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+._aapu {
+    align-items: stretch;
+    border: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    font: inherit;
+    font-size: 100%;
+    justify-content: center;
+    margin: var(--modal-padding);
+    padding: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+._aapv {
+    align-items: stretch;
+    border: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: var(--modal-padding) calc(2 * var(--modal-padding));
+    padding: 0;
+    position: relative;
+    text-align: center;
+    vertical-align: baseline
+}
+
+._aapv>*:nth-child(n+2) {
+    padding-top: 16px
+}
+
+._aapv:first-child,
+._aapu:first-child {
+    margin-top: calc(2 * var(--modal-padding))
+}
+
+._aapw {
+    align-items: stretch;
+    border: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    margin-top: var(--modal-padding);
+    padding: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+._aapw:only-child {
+    margin-top: 0
+}
+
+._aapw:only-child ._ad0n:first-child {
+    border-top: none;
+    border-top-left-radius: var(--modal-border-radius);
+    border-top-right-radius: var(--modal-border-radius)
+}
+
+._aapi {
+    animation: IGCoreModalShow .1s ease-out;
+    flex-shrink: 1;
+    justify-content: center;
+    margin: 20px;
+    max-height: calc(100% - 40px)
+}
+
+._aapi._aapo {
+    animation: none
+}
+
+._aapk {
+    width: 260px
+}
+
+._aapl {
+    max-width: 935px;
+    width: 100%
+}
+
+._aapm {
+    width: 548px
+}
+
+._aapn {
+    height: 50%
+}
+
+._aapq {
+    align-items: stretch;
+    border: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: -42px;
+    top: 4px;
+    vertical-align: baseline
+}
+
+._aapp {
+    align-items: stretch;
+    border: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    vertical-align: baseline
+}
+
+._aapr {
+    background-color: rgb(var(--ig-elevated-background));
+    border-radius: var(--modal-border-radius);
+    max-height: calc(100vh - 40px);
+    overflow-x: hidden;
+    overflow-y: auto
+}
+
+._aapj._aapr {
+    background-color: transparent
+}
+
+._aapn ._aapr {
+    height: 100%
+}
+
+@keyframes IGCoreModalShow {
+    0% {
+        opacity: 0;
+        transform: scale(1.2)
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1)
+    }
+}
+
+@media (max-width: 735px) {
+    ._aapm {
+        align-self: stretch;
+        animation: none;
+        flex-grow: 1;
+        margin: 0;
+        max-height: 100%;
+        width: 100%
+    }
+    ._aapm ._aapr {
+        border-radius: 0;
+        flex-grow: 1;
+        max-height: 100%
+    }
+    ._aapr._aaps {
+        height: 100%;
+        position: fixed;
+        width: 100%
+    }
+}
+
+@media (max-width: 736px) {
+    ._aapn {
+        height: 100%
+    }
+}
+
+@media (min-width: 736px) {
+    ._aapk {
+        width: 400px
+    }
+}
+
+a._aa-z,
+a._aa-z:visited {
+    align-items: center;
+    color: rgb(var(--ig-secondary-text))
+}
+
+a._aa--,
+a._aa--:visited {
+    align-items: center;
+    color: rgb(var(--ig-primary-text))
+}
+
+._aa-z {
+    align-items: center;
+    cursor: pointer;
+    display: flex !important;
+    flex-direction: row;
+    font-family: var(--font-family-system);
+    height: 52px;
+    justify-content: center;
+    text-transform: uppercase
+}
+
+@media (min-width: 736px) {
+    ._aa-z:not(:last-child) {
+        margin-right: 60px
+    }
+    ._a3gq ._ae8r:not(:last-child) {
+        margin-right: auto
+    }
+}
+
+@media (max-width: 735px) {
+    ._aa-z {
+        flex: 1 1 auto;
+        height: 44px
+    }
+}
+
+._ac_u {
+    border-top: 1px solid rgb(var(--ig-primary-text)) !important;
+    color: rgb(var(--ig-primary-text));
+    margin-top: -1px !important
+}
+
+._ac_v {
+    border-bottom: 1px solid rgb(var(--ig-primary-text)) !important;
+    color: rgb(var(--ig-primary-text));
+    margin-bottom: -1px !important
+}
+
+._aalf::before {
+    background-image: linear-gradient( to left, rgba(var(--ig-secondary-background), 0), rgb(var(--ig-secondary-background)) 100%);
+    content: '';
+    height: 100%;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: 16px;
+    z-index: 1
+}
+
+._aalf::after {
+    background-image: linear-gradient( to right, rgba(var(--ig-secondary-background), 0), rgb(var(--ig-secondary-background)));
+    content: '';
+    height: 100%;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 16px;
+    z-index: 1
+}
+
+._aale {
+    overflow: visible !important
+}
+
+._aau6 {
+    height: 351px
+}
+
+._aau5 {
+    border: 0;
+    border-radius: 22px;
+    box-shadow: 0 2px 24px rgba(0, 0, 0, .1);
+    height: 344px
+}
+
+/*FB_PKG_DELIM*/
+
+._aabs,
+._aabs:visited {
+    color: rgb(var(--ig-primary-text))
+}
+
+._aabq {
+    border-radius: 12px;
+    display: block;
+    flex-basis: 0px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-height: 200px;
+    overflow-y: scroll
+}
+
+@media (max-width: 735px) {
+    ._aabr {
+        margin: 4px 0 4px 4px
+    }
+}
+
+._aabp {
+    border: 0;
+    font: inherit;
+    font-size: 80px;
+    font-weight: 100;
+    margin: auto;
+    padding: 0;
+    vertical-align: baseline
+}
+
+._aabo {
+    border: 1.5px solid var(--grey-9);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100px
+}
+
+._aanp {
+    align-self: stretch
+}
+
+._aanq {
+    height: 50px
+}
+
+._aano {
+    border-radius: 12px;
+    display: block;
+    flex-basis: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-height: 200px;
+    overflow-y: scroll;
+    position: relative
+}
+
+._abw2 {
+    border-radius: 22px;
+    box-shadow: 0 2px 24px rgba(0, 0, 0, .1)
+}
+
+/*FB_PKG_DELIM*/
+
+._acgm {
+    justify-content: center;
+    margin-top: -20px
+}
+
+._ad2v {
+    align-items: stretch;
+    border: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0 auto 30px;
+    max-width: 935px;
+    padding: 0;
+    position: relative;
+    vertical-align: baseline;
+    width: 100%
+}
+
+._a9z_ {
+    height: 100%;
+    width: 100%
+}
+
+._aa5f {
+    flex-basis: 0px;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font: inherit;
+    font-size: 100%;
+    height: 100%;
+    max-height: 100%;
+    padding: 0;
+    padding-top: var(--mobile-nav-height);
+    align-items: stretch;
+    border: 0;
+    box-sizing: border-box;
+    display: flex;
+    margin: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+._a9-0 {
+    align-items: stretch;
+    background-color: rgb(var(--ig-secondary-background));
+    border: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: 0px;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font: inherit;
+    font-size: 100%;
+    height: 100%;
+    margin: 0;
+    max-height: 100%;
+    padding: 0;
+    padding-top: 60px;
+    position: relative;
+    vertical-align: baseline
+}
+
+._acxb {
+    width: 100%;
+    z-index: 10
+}
+
+/*FB_PKG_DELIM*/
+
+#bootloader_VGnZ5N8 {
+    height: 42px;
+}
+
+.bootloader_VGnZ5N8 {
+    display: block !important;
+}

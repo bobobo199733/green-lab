@@ -1,0 +1,1001 @@
+.tv-device-menu-checkbox {
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+    display: block
+}
+
+.tv-device-menu-checkbox--in-actions {
+    max-width: 50%
+}
+
+@media screen and (max-width:479px) {
+    .tv-device-menu-checkbox--in-actions {
+        max-width: none
+    }
+}
+
+.tv-device-menu-checkbox,
+.tv-device-menu-checkbox__label {
+    display: inline-block;
+    position: relative;
+    -webkit-user-select: none;
+    user-select: none;
+    vertical-align: middle
+}
+
+.tv-device-menu-checkbox--nowrap,
+.tv-device-menu-checkbox__label--nowrap {
+    white-space: nowrap
+}
+
+.tv-device-menu-checkbox__input {
+    height: 18px;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 18px
+}
+
+.tv-device-menu-checkbox__box {
+    border-radius: 3px;
+    box-sizing: border-box;
+    display: block;
+    height: 18px;
+    line-height: 1;
+    pointer-events: none;
+    transition: background-color .35s ease;
+    width: 18px
+}
+
+.tv-device-menu-checkbox__box:before {
+    border-radius: 3px;
+    content: "";
+    display: block;
+    height: 18px;
+    left: 50%;
+    margin-left: -9px;
+    margin-top: -9px;
+    position: absolute;
+    top: 50%;
+    transform: scale(1);
+    transition: transform .35s ease, background-color .35s ease, border-radius .35s ease;
+    width: 18px
+}
+
+.tv-device-menu-checkbox__box:after {
+    border: 2px solid #758696;
+    border-radius: 3px;
+    box-sizing: border-box;
+    content: "";
+    display: block;
+    height: 18px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: border-color .35s ease;
+    width: 18px
+}
+
+.tv-device-menu-checkbox__box svg {
+    stroke: #0000;
+    display: block;
+    height: 12px;
+    left: 50%;
+    margin-left: -6px;
+    margin-top: -6px;
+    position: absolute;
+    top: 50%;
+    transform: scale(0);
+    transition: stroke .35s ease 1ms, transform .35s ease 1ms;
+    width: 12px
+}
+
+.tv-device-menu-checkbox__label {
+    margin-right: 10px;
+    white-space: normal
+}
+
+.tv-device-menu-checkbox__label--two-lines {
+    width: 155px
+}
+
+.tv-device-menu-checkbox__label--nowrap {
+    white-space: nowrap
+}
+
+.tv-device-menu-checkbox__label--lil-line-height {
+    line-height: 16px;
+    max-width: 80%;
+    min-width: 45%
+}
+
+.tv-device-menu-checkbox__label+.tv-device-menu-checkbox {
+    margin-left: 0
+}
+
+.tv-device-menu-checkbox+.tv-device-menu-checkbox__label {
+    margin-left: 10px;
+    margin-right: 0;
+    max-width: calc(100% - 1ex - 28px)
+}
+
+.tv-device-menu-checkbox:active .tv-device-menu-checkbox__box,
+.tv-device-menu-checkbox__input:focus+.tv-device-menu-checkbox__box {
+    will-change: background-color
+}
+
+@media (any-hover:hover) {
+    .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__box {
+        will-change: background-color
+    }
+}
+
+.tv-device-menu-checkbox:active .tv-device-menu-checkbox__box:before,
+.tv-device-menu-checkbox__input:focus+.tv-device-menu-checkbox__box:before {
+    will-change: transform, border-radius
+}
+
+@media (any-hover:hover) {
+    .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__box:before {
+        will-change: transform, border-radius
+    }
+}
+
+.tv-device-menu-checkbox:active .tv-device-menu-checkbox__box:after,
+.tv-device-menu-checkbox__input:focus+.tv-device-menu-checkbox__box:after {
+    will-change: border-color
+}
+
+@media (any-hover:hover) {
+    .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__box:after {
+        border-color: #627384;
+        will-change: border-color
+    }
+}
+
+.tv-device-menu-checkbox:active .tv-device-menu-checkbox__box:after,
+.tv-device-menu-checkbox__input:focus+.tv-device-menu-checkbox__box:after,
+html.theme-dark .tv-device-menu-checkbox:active .tv-device-menu-checkbox__box:after,
+html.theme-dark .tv-device-menu-checkbox__input:focus+.tv-device-menu-checkbox__box:after {
+    border-color: #2962ff
+}
+
+.tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box,
+html.theme-dark .tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box {
+    background-color: #2962ff
+}
+
+.tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box,
+.tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box:after,
+.tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box:before {
+    transition-timing-function: cubic-bezier(.215, .61, .355, 1)
+}
+
+.tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box:before {
+    border-radius: 50%;
+    transform: scale(0)
+}
+
+.tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box:after,
+html.theme-dark .tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box:after {
+    border-color: #2962ff
+}
+
+.tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box svg {
+    stroke: #fff;
+    transform: scale(1);
+    transition-delay: .0875s;
+    transition-timing-function: cubic-bezier(.215, .61, .355, 1);
+    will-change: stroke, transform
+}
+
+@media (any-hover:hover) {
+    .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box {
+        background-color: #1e53e5
+    }
+    .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box:after {
+        border-color: #1e53e5
+    }
+}
+
+.tv-device-menu-checkbox:active .tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box,
+.tv-device-menu-checkbox__input:focus:checked+.tv-device-menu-checkbox__box {
+    background-color: #2962ff
+}
+
+.tv-device-menu-checkbox:active .tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box:after,
+.tv-device-menu-checkbox__input:focus:checked+.tv-device-menu-checkbox__box:after {
+    border-color: #2962ff
+}
+
+.tv-device-menu-checkbox:active .tv-device-menu-checkbox__input[disabled]+.tv-device-menu-checkbox__box:after,
+.tv-device-menu-checkbox:active .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box:after,
+.tv-device-menu-checkbox__input[disabled]+.tv-device-menu-checkbox__box:after,
+.tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box:after {
+    border-color: #e0e3eb
+}
+
+@media (any-hover:hover) {
+    .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__input[disabled]+.tv-device-menu-checkbox__box:after,
+    .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box:after {
+        border-color: #e0e3eb
+    }
+}
+
+html.theme-dark .tv-device-menu-checkbox:active .tv-device-menu-checkbox__input[disabled]+.tv-device-menu-checkbox__box:after,
+html.theme-dark .tv-device-menu-checkbox:active .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box:after,
+html.theme-dark .tv-device-menu-checkbox__input[disabled]+.tv-device-menu-checkbox__box:after,
+html.theme-dark .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box:after {
+    border-color: #363a45
+}
+
+@media (any-hover:hover) {
+    html.theme-dark .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__input[disabled]+.tv-device-menu-checkbox__box:after,
+    html.theme-dark .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box:after {
+        border-color: #363a45
+    }
+}
+
+.tv-device-menu-checkbox:active .tv-device-menu-checkbox__input[disabled]+.tv-device-menu-checkbox__box:before,
+.tv-device-menu-checkbox:active .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box:before {
+    background-color: #bbd9fb;
+    transition: background-color .35s ease
+}
+
+html.theme-dark .tv-device-menu-checkbox:active .tv-device-menu-checkbox__input[disabled]+.tv-device-menu-checkbox__box:before,
+html.theme-dark .tv-device-menu-checkbox:active .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box:before {
+    background-color: #2a2e39
+}
+
+.tv-device-menu-checkbox:active .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box,
+.tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box {
+    background-color: #dadde0
+}
+
+@media (any-hover:hover) {
+    .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box {
+        background-color: #dadde0
+    }
+}
+
+.tv-device-menu-checkbox__ripple {
+    border-radius: 50%;
+    display: block;
+    height: 100%;
+    margin: -10px;
+    -webkit-mask-image: radial-gradient(circle, #fff 100%, #000 0);
+    mask-image: radial-gradient(circle, #fff 100%, #000 0);
+    overflow: hidden;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%
+}
+
+.tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box+.tv-device-menu-checkbox__ripple .tv-ripple {
+    background-color: #2962ff40
+}
+
+.tv-device-menu-checkbox__input[disabled]+.tv-device-menu-checkbox__box+.tv-device-menu-checkbox__ripple .tv-ripple,
+.tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box+.tv-device-menu-checkbox__ripple .tv-ripple {
+    background-color: initial
+}
+
+.tv-device-menu-checkbox.i-error .tv-device-menu-checkbox__box:after {
+    border-color: #ff4a68
+}
+
+.tv-device-menu-checkbox.i-disabled {
+    cursor: default
+}
+
+.tv-device-menu-checkbox__label {
+    box-sizing: border-box;
+    margin: 0;
+    padding-left: 15px;
+    transition: opacity .35s ease
+}
+
+.tv-device-menu-checkbox__label-desc {
+    display: block;
+    font-size: 12px;
+    opacity: .5
+}
+
+.tv-device-menu-checkbox__box,
+.tv-device-menu-checkbox__input {
+    height: 20px;
+    width: 20px
+}
+
+.tv-device-menu-checkbox__box:before {
+    background-color: initial;
+    height: 30px;
+    margin-left: -15px;
+    margin-top: -15px;
+    width: 30px
+}
+
+.tv-device-menu-checkbox__box:after {
+    border-color: #fff6;
+    height: 20px;
+    width: 20px
+}
+
+.tv-device-menu-checkbox__box svg {
+    height: 11px;
+    margin-left: -5px;
+    margin-top: -5px;
+    width: 11px
+}
+
+input[type=radio]+.tv-device-menu-checkbox__box,
+input[type=radio]+.tv-device-menu-checkbox__box:after,
+input[type=radio]+.tv-device-menu-checkbox__box:before {
+    border-radius: 50%
+}
+
+.tv-device-menu-checkbox:active .tv-device-menu-checkbox__box:after,
+.tv-device-menu-checkbox__input:focus+.tv-device-menu-checkbox__box:after {
+    border-color: #fff
+}
+
+@media (any-hover:hover) {
+    .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__box:after {
+        border-color: #fff
+    }
+}
+
+.feature-mobiletouch .tv-device-menu-checkbox__input:focus+.tv-device-menu-checkbox__box:after {
+    border-color: #fff6
+}
+
+.tv-device-menu-checkbox:active .tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box,
+.tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box,
+.tv-device-menu-checkbox__input:focus:checked+.tv-device-menu-checkbox__box {
+    background-color: #fff
+}
+
+@media (any-hover:hover) {
+    .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box {
+        background-color: #fff
+    }
+}
+
+.tv-device-menu-checkbox:active .tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box:after,
+.tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box:after,
+.tv-device-menu-checkbox__input:focus:checked+.tv-device-menu-checkbox__box:after {
+    border-color: #fff
+}
+
+@media (any-hover:hover) {
+    .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box:after {
+        border-color: #fff
+    }
+}
+
+.tv-device-menu-checkbox:active .tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box svg,
+.tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box svg,
+.tv-device-menu-checkbox__input:focus:checked+.tv-device-menu-checkbox__box svg {
+    stroke: #252733
+}
+
+@media (any-hover:hover) {
+    .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box svg {
+        stroke: #252733
+    }
+}
+
+.tv-device-menu-checkbox:active .tv-device-menu-checkbox__input[disabled]+.tv-device-menu-checkbox__box,
+.tv-device-menu-checkbox:active .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box,
+.tv-device-menu-checkbox__input[disabled]+.tv-device-menu-checkbox__box,
+.tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box {
+    background-color: hsla(0, 0%, 100%, .175)
+}
+
+@media (any-hover:hover) {
+    .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__input[disabled]+.tv-device-menu-checkbox__box,
+    .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box {
+        background-color: hsla(0, 0%, 100%, .175)
+    }
+}
+
+.tv-device-menu-checkbox:active .tv-device-menu-checkbox__input[disabled]+.tv-device-menu-checkbox__box:before,
+.tv-device-menu-checkbox:active .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box:before,
+.tv-device-menu-checkbox__input[disabled]+.tv-device-menu-checkbox__box:before,
+.tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box:before {
+    background-color: initial
+}
+
+@media (any-hover:hover) {
+    .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__input[disabled]+.tv-device-menu-checkbox__box:before,
+    .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box:before {
+        background-color: initial
+    }
+}
+
+.tv-device-menu-checkbox:active .tv-device-menu-checkbox__input[disabled]+.tv-device-menu-checkbox__box:after,
+.tv-device-menu-checkbox:active .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box:after,
+.tv-device-menu-checkbox__input[disabled]+.tv-device-menu-checkbox__box:after,
+.tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box:after {
+    border-color: #0000
+}
+
+@media (any-hover:hover) {
+    .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__input[disabled]+.tv-device-menu-checkbox__box:after,
+    .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box:after {
+        border-color: #0000
+    }
+}
+
+.tv-device-menu-checkbox:active .tv-device-menu-checkbox__input[disabled]+.tv-device-menu-checkbox__box svg,
+.tv-device-menu-checkbox:active .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box svg,
+.tv-device-menu-checkbox__input[disabled]+.tv-device-menu-checkbox__box svg,
+.tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box svg {
+    stroke: #ffffffbf
+}
+
+@media (any-hover:hover) {
+    .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__input[disabled]+.tv-device-menu-checkbox__box svg,
+    .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box svg {
+        stroke: #ffffffbf
+    }
+}
+
+.tv-device-menu-checkbox:active .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box:after,
+.tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box:after {
+    border-color: #0000
+}
+
+@media (any-hover:hover) {
+    .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box:after {
+        border-color: #0000
+    }
+}
+
+.tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box+.tv-device-menu-checkbox__ripple .tv-ripple,
+.tv-device-menu-checkbox__ripple .tv-ripple {
+    background-color: #ffffff40
+}
+
+.tv-device-menu--search-filters_secondary .tv-device-menu-checkbox__box:before {
+    background-color: #fff
+}
+
+html.theme-dark .tv-device-menu--search-filters_secondary .tv-device-menu-checkbox__box:before {
+    background-color: #1e222d
+}
+
+.tv-device-menu--search-filters_secondary .tv-device-menu-checkbox__box:after {
+    border-color: #75869699
+}
+
+.feature-no-mobiletouch .tv-device-menu--search-filters_secondary .tv-device-menu-checkbox__input:focus+.tv-device-menu-checkbox__box:after,
+.tv-device-menu--search-filters_secondary .tv-device-menu-checkbox:active .tv-device-menu-checkbox__box:after {
+    border-color: #758696
+}
+
+@media (any-hover:hover) {
+    .tv-device-menu--search-filters_secondary .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__box:after {
+        border-color: #758696
+    }
+}
+
+.feature-mobiletouch .tv-device-menu-checkbox__input:focus+.tv-device-menu-checkbox__box:after {
+    border-color: #75869699
+}
+
+.tv-device-menu--search-filters_secondary .tv-device-menu-checkbox:active .tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box,
+.tv-device-menu--search-filters_secondary .tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box,
+.tv-device-menu--search-filters_secondary .tv-device-menu-checkbox__input:focus:checked+.tv-device-menu-checkbox__box {
+    background-color: #758696
+}
+
+@media (any-hover:hover) {
+    .tv-device-menu--search-filters_secondary .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box {
+        background-color: #758696
+    }
+}
+
+html.theme-dark .tv-device-menu--search-filters_secondary .tv-device-menu-checkbox:active .tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box,
+html.theme-dark .tv-device-menu--search-filters_secondary .tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box,
+html.theme-dark .tv-device-menu--search-filters_secondary .tv-device-menu-checkbox__input:focus:checked+.tv-device-menu-checkbox__box {
+    background-color: #1848cc
+}
+
+@media (any-hover:hover) {
+    html.theme-dark .tv-device-menu--search-filters_secondary .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box {
+        background-color: #1848cc
+    }
+}
+
+.tv-device-menu--search-filters_secondary .tv-device-menu-checkbox:active .tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box:after,
+.tv-device-menu--search-filters_secondary .tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box:after,
+.tv-device-menu--search-filters_secondary .tv-device-menu-checkbox__input:focus:checked+.tv-device-menu-checkbox__box:after {
+    border-color: #758696
+}
+
+@media (any-hover:hover) {
+    .tv-device-menu--search-filters_secondary .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box:after {
+        border-color: #758696
+    }
+}
+
+html.theme-dark .tv-device-menu--search-filters_secondary .tv-device-menu-checkbox:active .tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box:after,
+html.theme-dark .tv-device-menu--search-filters_secondary .tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box:after,
+html.theme-dark .tv-device-menu--search-filters_secondary .tv-device-menu-checkbox__input:focus:checked+.tv-device-menu-checkbox__box:after {
+    border-color: #1848cc
+}
+
+@media (any-hover:hover) {
+    html.theme-dark .tv-device-menu--search-filters_secondary .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box:after {
+        border-color: #1848cc
+    }
+}
+
+.tv-device-menu--search-filters_secondary .tv-device-menu-checkbox:active .tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box svg,
+.tv-device-menu--search-filters_secondary .tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box svg,
+.tv-device-menu--search-filters_secondary .tv-device-menu-checkbox__input:focus:checked+.tv-device-menu-checkbox__box svg {
+    stroke: #fff
+}
+
+@media (any-hover:hover) {
+    .tv-device-menu--search-filters_secondary .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box svg {
+        stroke: #fff
+    }
+}
+
+.tv-device-menu--search-filters_secondary .tv-device-menu-checkbox:active .tv-device-menu-checkbox__input[disabled]+.tv-device-menu-checkbox__box,
+.tv-device-menu--search-filters_secondary .tv-device-menu-checkbox:active .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box,
+.tv-device-menu--search-filters_secondary .tv-device-menu-checkbox__input[disabled]+.tv-device-menu-checkbox__box,
+.tv-device-menu--search-filters_secondary .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box {
+    background-color: #7586960d
+}
+
+@media (any-hover:hover) {
+    .tv-device-menu--search-filters_secondary .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__input[disabled]+.tv-device-menu-checkbox__box,
+    .tv-device-menu--search-filters_secondary .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box {
+        background-color: #7586960d
+    }
+}
+
+.tv-device-menu--search-filters_secondary .tv-device-menu-checkbox:active .tv-device-menu-checkbox__input[disabled]+.tv-device-menu-checkbox__box:before,
+.tv-device-menu--search-filters_secondary .tv-device-menu-checkbox:active .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box:before,
+.tv-device-menu--search-filters_secondary .tv-device-menu-checkbox__input[disabled]+.tv-device-menu-checkbox__box:before,
+.tv-device-menu--search-filters_secondary .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box:before {
+    background-color: initial
+}
+
+@media (any-hover:hover) {
+    .tv-device-menu--search-filters_secondary .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__input[disabled]+.tv-device-menu-checkbox__box:before,
+    .tv-device-menu--search-filters_secondary .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box:before {
+        background-color: initial
+    }
+}
+
+.tv-device-menu--search-filters_secondary .tv-device-menu-checkbox:active .tv-device-menu-checkbox__input[disabled]+.tv-device-menu-checkbox__box:after,
+.tv-device-menu--search-filters_secondary .tv-device-menu-checkbox:active .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box:after,
+.tv-device-menu--search-filters_secondary .tv-device-menu-checkbox__input[disabled]+.tv-device-menu-checkbox__box:after,
+.tv-device-menu--search-filters_secondary .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box:after {
+    border-color: #0000
+}
+
+@media (any-hover:hover) {
+    .tv-device-menu--search-filters_secondary .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__input[disabled]+.tv-device-menu-checkbox__box:after,
+    .tv-device-menu--search-filters_secondary .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box:after {
+        border-color: #0000
+    }
+}
+
+.tv-device-menu--search-filters_secondary .tv-device-menu-checkbox:active .tv-device-menu-checkbox__input[disabled]+.tv-device-menu-checkbox__box svg,
+.tv-device-menu--search-filters_secondary .tv-device-menu-checkbox:active .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box svg,
+.tv-device-menu--search-filters_secondary .tv-device-menu-checkbox__input[disabled]+.tv-device-menu-checkbox__box svg,
+.tv-device-menu--search-filters_secondary .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box svg {
+    stroke: #758696bf
+}
+
+@media (any-hover:hover) {
+    .tv-device-menu--search-filters_secondary .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__input[disabled]+.tv-device-menu-checkbox__box svg,
+    .tv-device-menu--search-filters_secondary .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box svg {
+        stroke: #758696bf
+    }
+}
+
+.tv-device-menu--search-filters_secondary .tv-device-menu-checkbox:active .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box:after,
+.tv-device-menu--search-filters_secondary .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box:after {
+    border-color: #0000
+}
+
+@media (any-hover:hover) {
+    .tv-device-menu--search-filters_secondary .tv-device-menu-checkbox:hover .tv-device-menu-checkbox__input[disabled]:checked+.tv-device-menu-checkbox__box:after {
+        border-color: #0000
+    }
+}
+
+.tv-device-menu--search-filters_secondary .tv-device-menu-checkbox__input:checked+.tv-device-menu-checkbox__box+.tv-device-menu-checkbox__ripple .tv-ripple,
+.tv-device-menu--search-filters_secondary .tv-device-menu-checkbox__ripple .tv-ripple {
+    background-color: #75869640
+}
+
+.tv-device-menu {
+    -webkit-overflow-scrolling: touch;
+    background-color: #fff;
+    box-sizing: border-box;
+    color: #131722;
+    height: calc(100% + 100px);
+    min-width: 280px;
+    overflow: auto;
+    padding-bottom: 100px;
+    position: fixed;
+    top: 0;
+    -webkit-user-select: none;
+    user-select: none;
+    will-change: transform;
+    z-index: 199
+}
+
+html.theme-dark .tv-device-menu {
+    background-color: #1e222d;
+    color: #d1d4dc
+}
+
+.tv-device-menu__inner {
+    padding-bottom: 20px;
+    position: relative
+}
+
+.tv-device-menu__inner:after {
+    clear: both;
+    content: "";
+    display: table
+}
+
+.tv-device-menu--center {
+    left: 0;
+    padding-bottom: 164px;
+    right: 0;
+    top: 64px
+}
+
+.tv-device-menu--search-filters {
+    background-color: #2a2e39;
+    left: 0;
+    opacity: 0;
+    right: 0;
+    top: 0;
+    transform-origin: top center
+}
+
+.tv-device-menu--search-filters.i-opened {
+    opacity: 1
+}
+
+.tv-device-menu--search-filters_secondary {
+    background-color: #fff
+}
+
+html.theme-dark .tv-device-menu--search-filters_secondary {
+    background-color: #1e222d
+}
+
+.tv-device-menu__header {
+    height: 64px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0
+}
+
+.tv-device-menu--search-filters .tv-device-menu__header {
+    height: 64px
+}
+
+.tv-device-menu__body {
+    bottom: 100px;
+    left: 0;
+    overflow: auto;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.tv-device-menu--search-filters .tv-device-menu__header+.tv-device-menu__body,
+.tv-device-menu__header+.tv-device-menu__body {
+    top: 64px
+}
+
+.tv-device-menu__item {
+    box-sizing: border-box;
+    color: #131722;
+    cursor: pointer;
+    display: block;
+    font-size: 0;
+    margin-bottom: 1px;
+    padding: 13px 20px;
+    position: relative;
+    transition: background-color .35s ease
+}
+
+html.theme-dark .tv-device-menu__item {
+    color: #d1d4dc
+}
+
+.tv-device-menu__item:active {
+    background-color: #f0f3fa;
+    transition-duration: 60ms
+}
+
+@media (any-hover:hover) {
+    .tv-device-menu__item:hover {
+        background-color: #f0f3fa;
+        transition-duration: 60ms
+    }
+}
+
+html.theme-dark .tv-device-menu__item:active {
+    background-color: #2a2e39
+}
+
+@media (any-hover:hover) {
+    html.theme-dark .tv-device-menu__item:hover {
+        background-color: #2a2e39
+    }
+}
+
+.tv-device-menu__item:after {
+    background-color: #e0e3eb;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 100%
+}
+
+html.theme-dark .tv-device-menu__item:after {
+    background-color: #434651
+}
+
+.tv-device-menu__item--ext svg {
+    fill: #fff;
+    stroke: #9db2bd;
+    display: inline-block;
+    height: 8px;
+    margin-left: 10px;
+    transition: fill .35s ease;
+    width: 8px
+}
+
+.tv-device-menu__item-text {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.6;
+    vertical-align: middle
+}
+
+.tv-device-menu__btn {
+    background-color: #fff;
+    cursor: pointer;
+    line-height: 63px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    transition: background-color .35s ease;
+    width: 63px
+}
+
+html.theme-dark .tv-device-menu__btn {
+    background-color: #1e222d
+}
+
+.tv-device-menu__btn svg {
+    fill: #131722;
+    display: inline-block;
+    height: 16px;
+    position: relative;
+    vertical-align: middle;
+    width: 10px
+}
+
+html.theme-dark .tv-device-menu__btn svg {
+    fill: #d1d4dc
+}
+
+.tv-device-menu__btn:active {
+    background-color: #f0f3fa;
+    transition-duration: 60ms
+}
+
+@media (any-hover:hover) {
+    .tv-device-menu__btn:hover {
+        background-color: #f0f3fa;
+        transition-duration: 60ms
+    }
+}
+
+html.theme-dark .tv-device-menu__btn:active {
+    background-color: #2a2e39
+}
+
+@media (any-hover:hover) {
+    html.theme-dark .tv-device-menu__btn:hover {
+        background-color: #2a2e39
+    }
+}
+
+.tv-device-menu__btn--close {
+    left: 0
+}
+
+.tv-device-menu__btn--close svg {
+    height: 14px;
+    top: -1px;
+    width: 14px
+}
+
+.tv-device-menu__btn--ok {
+    right: 0
+}
+
+.tv-device-menu__btn--ok svg {
+    height: 14px;
+    top: -1px;
+    width: 18px
+}
+
+.tv-device-menu__cloumn {
+    box-sizing: border-box;
+    float: left;
+    padding-right: 20px;
+    width: 50%
+}
+
+.tv-device-menu__cloumn:first-child {
+    padding-left: 20px
+}
+
+.tv-device-menu__filter {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: table;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 13px 0;
+    width: 100%
+}
+
+.tv-device-menu__filter.i-disabled {
+    cursor: default
+}
+
+.tv-device-menu__filter.i-disabled .tv-device-menu-checkbox__label {
+    opacity: .5
+}
+
+.tv-device-menu__filter-cell {
+    box-sizing: border-box;
+    display: table-cell;
+    vertical-align: top
+}
+
+.tv-device-menu__filter-cell--checkbox {
+    width: 20px
+}
+
+.tv-device-menu__filter-wrap {
+    display: block
+}
+
+.tv-device-menu__filter-title {
+    font-size: 12px;
+    margin-top: 15px;
+    opacity: .5;
+    text-transform: uppercase
+}
+
+.tv-device-menu--search-filters .tv-device-menu__btn {
+    background-color: initial;
+    height: 63px;
+    line-height: 63px;
+    width: 64px
+}
+
+.tv-device-menu--search-filters .tv-device-menu__btn:active {
+    background-color: #f0f3fa
+}
+
+@media (any-hover:hover) {
+    .tv-device-menu--search-filters .tv-device-menu__btn:hover {
+        background-color: #f0f3fa
+    }
+}
+
+html.theme-dark .tv-device-menu--search-filters .tv-device-menu__btn:active {
+    background-color: #2a2e39
+}
+
+@media (any-hover:hover) {
+    html.theme-dark .tv-device-menu--search-filters .tv-device-menu__btn:hover {
+        background-color: #2a2e39
+    }
+}
+
+.tv-device-menu--search-filters .tv-device-menu__item:after {
+    display: none
+}
+
+.tv-device-menu--search-filters .tv-device-menu__item:active {
+    background-color: #f0f3fa
+}
+
+@media (any-hover:hover) {
+    .tv-device-menu--search-filters .tv-device-menu__item:hover {
+        background-color: #f0f3fa
+    }
+}
+
+html.theme-dark .tv-device-menu--search-filters .tv-device-menu__item:active {
+    background-color: #2a2e39
+}
+
+@media (any-hover:hover) {
+    html.theme-dark .tv-device-menu--search-filters .tv-device-menu__item:hover {
+        background-color: #2a2e39
+    }
+}
+
+.tv-device-menu--search-filters_secondary .tv-device-menu__btn svg {
+    color: #6a6d78
+}
+
+html.theme-dark .tv-device-menu--search-filters_secondary .tv-device-menu__btn svg {
+    color: #868993
+}
+
+.tv-device-menu--search-filters_secondary .tv-device-menu__btn:active {
+    background-color: #f0f3fa
+}
+
+@media (any-hover:hover) {
+    .tv-device-menu--search-filters_secondary .tv-device-menu__btn:hover {
+        background-color: #f0f3fa
+    }
+}
+
+html.theme-dark .tv-device-menu--search-filters_secondary .tv-device-menu__btn:active {
+    background-color: #2a2e39
+}
+
+@media (any-hover:hover) {
+    html.theme-dark .tv-device-menu--search-filters_secondary .tv-device-menu__btn:hover {
+        background-color: #2a2e39
+    }
+}
+
+.tv-device-menu--search-filters_secondary .tv-device-menu__filter-cell,
+.tv-device-menu--search-filters_secondary .tv-device-menu__filter-title {
+    color: #6a6d78
+}
+
+html.theme-dark .tv-device-menu--search-filters_secondary .tv-device-menu__filter-cell,
+html.theme-dark .tv-device-menu--search-filters_secondary .tv-device-menu__filter-title {
+    color: #868993
+}
+
+.tv-device-menu__overlay {
+    background-color: #0006;
+    height: calc(100% + 100px);
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 198
+}
+
+.tv-device-menu__overlay--center {
+    background-color: #0000000d
+}

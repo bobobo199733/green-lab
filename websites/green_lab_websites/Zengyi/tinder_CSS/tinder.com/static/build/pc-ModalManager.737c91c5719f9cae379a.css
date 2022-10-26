@@ -1,0 +1,17 @@
+/*! {© 2016 - 2022 Match Group, LLC, ALL RIGHTS RESERVED} */
+
+@keyframes confettiMovement {
+    0% {
+        top: 0
+    }
+    80% {
+        transform: translateY(400px)
+    }
+    to {
+        transform: translateY(600px)
+    }
+}
+
+.animn-confetti {
+    animation-name: confettiMovement
+}

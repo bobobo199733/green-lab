@@ -1,0 +1,14 @@
+/*! {© 2016 - 2022 Match Group, LLC, ALL RIGHTS RESERVED} */
+
+@keyframes shimmer {
+    33% {
+        background-position-x: -400px
+    }
+    66% {
+        background-position-x: 400px
+    }
+    0,
+    to {
+        background-position-x: 0
+    }
+}

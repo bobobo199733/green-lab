@@ -1,0 +1,2 @@
+self.__SSG_MANIFEST = new Set(["\u002Frentals", "\u002Fsoldhomes", "\u002Frealestateforsale", "\u002Fhw", "\u002Frealestateforsale-mobile", "\u002Fforeclosure", "\u002F"]);
+self.__SSG_MANIFEST_CB && self.__SSG_MANIFEST_CB()

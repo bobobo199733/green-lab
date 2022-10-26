@@ -1,0 +1,1 @@
+Sentry.init({dsn:"https://e3f9948d92c84ba5a47fcc8bb47b96b4:1b8f35c967a24d9c82bbe2eaead9d9b4@sentry.io/1377054",environment:"production"}),Sentry.configureScope(function(e){e.setTag("source","frontend")});

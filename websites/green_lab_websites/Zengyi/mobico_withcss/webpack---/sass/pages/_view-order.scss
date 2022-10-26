@@ -1,0 +1,19 @@
+.woocommerce {
+  .order-info {
+    mark {
+      background: transparent;
+      color: inherit;
+    }
+  }
+
+  .woocommerce-table--order-details {
+    thead {
+      th {
+        color: #000;
+        letter-spacing: 0;
+        text-transform: none;
+
+      }
+    }
+  }
+}

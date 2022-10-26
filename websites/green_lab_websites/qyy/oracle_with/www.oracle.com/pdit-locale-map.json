@@ -1,0 +1,1010 @@
+[
+  {
+    "englishcountryname": "Middle East Regional",
+    "countrycode": "MIDDLEEAST",
+    "countryname": "الشرق الأوسط",
+    "regionname": "Middle East and Africa",
+    "siteid": "middleeast-ar",
+    "region": "middleeast"
+  },
+  {
+    "englishcountryname": "Bahrain",
+    "countrycode": "BH",
+    "countryname": "البحرين‎",
+    "regionname": "Middle East and Africa",
+    "siteid": "bh-ar",
+    "region": "middleeast"
+  },
+  {
+    "englishcountryname": "Luxembourg",
+    "countrycode": "LU",
+    "countryname": "Luxembourg",
+    "regionname": "Europe",
+    "siteid": "lu",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Czech Republic",
+    "countrycode": "CZ",
+    "countryname": "Česká Republika",
+    "regionname": "Europe",
+    "siteid": "cz",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Denmark",
+    "countrycode": "DK",
+    "countryname": "Danmark",
+    "regionname": "Europe",
+    "siteid": "dk",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Finland",
+    "countrycode": "FI",
+    "countryname": "Suomi",
+    "regionname": "Europe",
+    "siteid": "fi",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Germany",
+    "countrycode": "DE",
+    "countryname": "Deutschland",
+    "regionname": "Europe",
+    "siteid": "de",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Switzerland",
+    "countrycode": "CH",
+    "countryname": "Schweiz",
+    "regionname": "Europe",
+    "siteid": "ch-de",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "United Arab Emirates",
+    "countrycode": "AE",
+    "countryname": "United Arab Emirates",
+    "regionname": "Middle East and Africa",
+    "siteid": "ae",
+    "region": "middleeast"
+  },
+  {
+    "englishcountryname": "APAC",
+    "countrycode": "APAC",
+    "countryname": "APAC",
+    "regionname": "Asia Pacific",
+    "siteid": "apac",
+    "region": ""
+  },
+  {
+    "englishcountryname": "EMEA",
+    "countrycode": "EMEA",
+    "countryname": "EMEA",
+    "regionname": "Europe",
+    "siteid": "emea",
+    "region": ""
+  },
+  {
+    "englishcountryname": "India",
+    "countrycode": "IN",
+    "countryname": "India",
+    "regionname": "Asia Pacific",
+    "siteid": "in",
+    "region": "asia"
+  },
+  {
+    "englishcountryname": "Jordan",
+    "countrycode": "JO",
+    "countryname": "Jordan",
+    "regionname": "Middle East and Africa",
+    "siteid": "jo",
+    "region": "middleeast"
+  },
+  {
+    "englishcountryname": "Lebanon",
+    "countrycode": "LB",
+    "countryname": "Lebanon",
+    "regionname": "Middle East and Africa",
+    "siteid": "lb",
+    "region": "middleeast"
+  },
+  {
+    "englishcountryname": "Oman",
+    "countrycode": "OM",
+    "countryname": "Oman",
+    "regionname": "Middle East and Africa",
+    "siteid": "om",
+    "region": "middleeast"
+  },
+  {
+    "englishcountryname": "Qatar",
+    "countrycode": "QA",
+    "countryname": "Qatar",
+    "regionname": "Middle East and Africa",
+    "siteid": "qa",
+    "region": "middleeast"
+  },
+  {
+    "englishcountryname": "Algeria",
+    "countrycode": "DZ",
+    "countryname": "Algeria",
+    "regionname": "Middle East and Africa",
+    "siteid": "dz",
+    "region": "middleeast"
+  },
+  {
+    "englishcountryname": "Ghana",
+    "countrycode": "GH",
+    "countryname": "Ghana",
+    "regionname": "Middle East and Africa",
+    "siteid": "gh",
+    "region": "middleeast"
+  },
+  {
+    "englishcountryname": "Senegal",
+    "countrycode": "SN",
+    "countryname": "Sénégal",
+    "regionname": "Middle East and Africa",
+    "siteid": "sn",
+    "region": "middleeast"
+  },
+  {
+    "englishcountryname": "Argentina",
+    "countrycode": "AR",
+    "countryname": "Argentina",
+    "regionname": "Americas",
+    "siteid": "ar",
+    "region": "americas"
+  },
+  {
+    "englishcountryname": "Belize",
+    "countrycode": "BZ",
+    "countryname": "Belize",
+    "regionname": "Americas",
+    "siteid": "bz",
+    "region": "americas"
+  },
+  {
+    "englishcountryname": "Moldova",
+    "countrycode": "MD",
+    "countryname": "Moldova",
+    "regionname": "Europe",
+    "siteid": "md",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Ukraine",
+    "countrycode": "UA",
+    "countryname": "Україна",
+    "regionname": "Europe",
+    "siteid": "ua",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Brasil",
+    "countrycode": "BR",
+    "countryname": "Brasil",
+    "regionname": "Americas",
+    "siteid": "br",
+    "region": "americas"
+  },
+  {
+    "englishcountryname": "Canada",
+    "countrycode": "CA",
+    "countryname": "Canada",
+    "regionname": "Americas",
+    "siteid": "ca-en",
+    "region": "americas"
+  },
+  {
+    "englishcountryname": "Canada",
+    "countrycode": "CA",
+    "countryname": "Canada",
+    "regionname": "Americas",
+    "siteid": "ca-fr",
+    "region": "americas"
+  },
+  {
+    "englishcountryname": "Hong Kong SAR, PRC",
+    "countrycode": "HK",
+    "countryname": "Hong Kong SAR, PRC",
+    "regionname": "Asia Pacific",
+    "siteid": "hk",
+    "region": "asia"
+  },
+  {
+    "englishcountryname": "Cambodia",
+    "countrycode": "KH",
+    "countryname": "Cambodia",
+    "regionname": "Asia Pacific",
+    "siteid": "kh",
+    "region": "asia"
+  },
+  {
+    "englishcountryname": "Indonesia",
+    "countrycode": "ID",
+    "countryname": "Indonesia",
+    "regionname": "Asia Pacific",
+    "siteid": "id",
+    "region": "asia"
+  },
+  {
+    "englishcountryname": "Malaysia",
+    "countrycode": "MY",
+    "countryname": "Malaysia",
+    "regionname": "Asia Pacific",
+    "siteid": "my",
+    "region": "asia"
+  },
+  {
+    "englishcountryname": "Pakistan",
+    "countrycode": "PK",
+    "countryname": "Pakistan",
+    "regionname": "Asia Pacific",
+    "siteid": "pk",
+    "region": "asia"
+  },
+  {
+    "englishcountryname": "Philippines",
+    "countrycode": "PH",
+    "countryname": "Philippines",
+    "regionname": "Asia Pacific",
+    "siteid": "ph",
+    "region": "asia"
+  },
+  {
+    "englishcountryname": "Singapore",
+    "countrycode": "SG",
+    "countryname": "Singapore",
+    "regionname": "Asia Pacific",
+    "siteid": "sg",
+    "region": "asia"
+  },
+  {
+    "englishcountryname": "Korea",
+    "countrycode": "KR",
+    "countryname": "대한민국",
+    "regionname": "Asia Pacific",
+    "siteid": "kr",
+    "region": "asia"
+  },
+  {
+    "englishcountryname": "Netherlands",
+    "countrycode": "NL",
+    "countryname": "Nederland",
+    "regionname": "Europe",
+    "siteid": "nl",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Norway",
+    "countrycode": "NO",
+    "countryname": "Norge",
+    "regionname": "Europe",
+    "siteid": "no",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "China",
+    "countrycode": "CN",
+    "countryname": "中国-简体中文",
+    "regionname": "Asia Pacific",
+    "siteid": "cn",
+    "region": "asia"
+  },
+  {
+    "englishcountryname": "Poland",
+    "countrycode": "PL",
+    "countryname": "Polska",
+    "regionname": "Europe",
+    "siteid": "pl",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Portugal",
+    "countrycode": "PT",
+    "countryname": "Portugal",
+    "regionname": "Europe",
+    "siteid": "pt",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Yemen",
+    "countrycode": "YE",
+    "countryname": "Yemen",
+    "regionname": "Middle East and Africa",
+    "siteid": "ye",
+    "region": ""
+  },
+  {
+    "englishcountryname": "Africa",
+    "countrycode": "AFRICA",
+    "countryname": "Africa Region",
+    "regionname": "Middle East and Africa",
+    "siteid": "africa",
+    "region": "middleeast"
+  },
+  {
+    "englishcountryname": "ASEAN",
+    "countrycode": "ASIASOUTH",
+    "countryname": "ASEAN",
+    "regionname": "Asia Pacific",
+    "siteid": "asiasouth",
+    "region": "asia"
+  },
+  {
+    "englishcountryname": "Nepal",
+    "countrycode": "NP",
+    "countryname": "Nepal",
+    "regionname": "Asia Pacific",
+    "siteid": "np",
+    "region": "asia"
+  },
+  {
+    "englishcountryname": "Belgium",
+    "countrycode": "BE",
+    "countryname": "Belgium",
+    "regionname": "Europe",
+    "siteid": "be",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Croatia",
+    "countrycode": "HR",
+    "countryname": "Hrvatska",
+    "regionname": "Europe",
+    "siteid": "hr",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Mongolia",
+    "countrycode": "MN",
+    "countryname": "Монгол Улс",
+    "regionname": "Asia Pacific",
+    "siteid": "mn",
+    "region": "asia"
+  },
+  {
+    "englishcountryname": "Montenegro",
+    "countrycode": "ME",
+    "countryname": "Montenegro",
+    "regionname": "Europe",
+    "siteid": "me",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Estonia",
+    "countrycode": "EE",
+    "countryname": "Eesti",
+    "regionname": "Europe",
+    "siteid": "ee",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Paraguay",
+    "countrycode": "PY",
+    "countryname": "Paraguay",
+    "regionname": "Americas",
+    "siteid": "py",
+    "region": "americas"
+  },
+  {
+    "englishcountryname": "Peru",
+    "countrycode": "PE",
+    "countryname": "Perú",
+    "regionname": "Americas",
+    "siteid": "pe",
+    "region": "americas"
+  },
+  {
+    "englishcountryname": "Puerto Rico",
+    "countrycode": "PR",
+    "countryname": "Puerto Rico",
+    "regionname": "Americas",
+    "siteid": "pr",
+    "region": "americas"
+  },
+  {
+    "englishcountryname": "Uruguay",
+    "countrycode": "UY",
+    "countryname": "Uruguay",
+    "regionname": "Americas",
+    "siteid": "uy",
+    "region": "americas"
+  },
+  {
+    "englishcountryname": "Venezuela",
+    "countrycode": "VE",
+    "countryname": "Venezuela",
+    "regionname": "Americas",
+    "siteid": "ve",
+    "region": "americas"
+  },
+  {
+    "englishcountryname": "New Zealand",
+    "countrycode": "NZ",
+    "countryname": "New Zealand",
+    "regionname": "Asia Pacific",
+    "siteid": "nz",
+    "region": "asia"
+  },
+  {
+    "englishcountryname": "Serbia",
+    "countrycode": "RS",
+    "countryname": "Serbia",
+    "regionname": "Europe",
+    "siteid": "rs",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Switzerland",
+    "countrycode": "CH",
+    "countryname": "Suisse",
+    "regionname": "Europe",
+    "siteid": "ch-fr",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Slovenia",
+    "countrycode": "SI",
+    "countryname": "Slovenija",
+    "regionname": "Europe",
+    "siteid": "si",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Bangladesh",
+    "countrycode": "BD",
+    "countryname": "Bangladesh",
+    "regionname": "Asia Pacific",
+    "siteid": "bd",
+    "region": "asia"
+  },
+  {
+    "englishcountryname": "Austria",
+    "countrycode": "AT",
+    "countryname": "Österreich",
+    "regionname": "Europe",
+    "siteid": "at",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Romania",
+    "countrycode": "RO",
+    "countryname": "România",
+    "regionname": "Europe",
+    "siteid": "ro",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Slovakia",
+    "countrycode": "SK",
+    "countryname": "Slovensko",
+    "regionname": "Europe",
+    "siteid": "sk",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "South Africa",
+    "countrycode": "ZA",
+    "countryname": "South Africa",
+    "regionname": "Middle East and Africa",
+    "siteid": "za",
+    "region": "middleeast"
+  },
+  {
+    "englishcountryname": "Sweden",
+    "countrycode": "SE",
+    "countryname": "Sverige",
+    "regionname": "Europe",
+    "siteid": "se",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Turkey",
+    "countrycode": "TR",
+    "countryname": "Türkiye",
+    "regionname": "Europe",
+    "siteid": "tr",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Bhutan",
+    "countrycode": "BT",
+    "countryname": "Bhutan",
+    "regionname": "Asia Pacific",
+    "siteid": "bt",
+    "region": "asia"
+  },
+  {
+    "englishcountryname": "Brunei Darussalam",
+    "countrycode": "BN",
+    "countryname": "Brunei Darussalam",
+    "regionname": "Asia Pacific",
+    "siteid": "bn",
+    "region": "asia"
+  },
+  {
+    "englishcountryname": "Laos",
+    "countrycode": "LA",
+    "countryname": "Laos",
+    "regionname": "Asia Pacific",
+    "siteid": "la",
+    "region": "asia"
+  },
+  {
+    "englishcountryname": "Maldives",
+    "countrycode": "MV",
+    "countryname": "Maldives",
+    "regionname": "Asia Pacific",
+    "siteid": "mv",
+    "region": "asia"
+  },
+  {
+    "englishcountryname": "Ecuador",
+    "countrycode": "EC",
+    "countryname": "Ecuador",
+    "regionname": "Americas",
+    "siteid": "ec",
+    "region": "americas"
+  },
+  {
+    "englishcountryname": "Guatemala",
+    "countrycode": "GT",
+    "countryname": "Guatemala",
+    "regionname": "Americas",
+    "siteid": "gt",
+    "region": "americas"
+  },
+  {
+    "englishcountryname": "Egypt",
+    "countrycode": "EG",
+    "countryname": "مصر",
+    "regionname": "Middle East and Africa",
+    "siteid": "eg-ar",
+    "region": "middleeast"
+  },
+  {
+    "englishcountryname": "Iraq",
+    "countrycode": "IQ",
+    "countryname": "العراق",
+    "regionname": "Middle East and Africa",
+    "siteid": "iq-ar",
+    "region": ""
+  },
+  {
+    "englishcountryname": "Jordan",
+    "countrycode": "JO",
+    "countryname": "الأردن",
+    "regionname": "Middle East and Africa",
+    "siteid": "jo-ar",
+    "region": "middleeast"
+  },
+  {
+    "englishcountryname": "Kuwait",
+    "countrycode": "KW",
+    "countryname": "الكويت",
+    "regionname": "Middle East and Africa",
+    "siteid": "kw-ar",
+    "region": "middleeast"
+  },
+  {
+    "englishcountryname": "Lebanon",
+    "countrycode": "LB",
+    "countryname": "لبنان",
+    "regionname": "Middle East and Africa",
+    "siteid": "lb-ar",
+    "region": "middleeast"
+  },
+  {
+    "englishcountryname": "Oman",
+    "countrycode": "OM",
+    "countryname": "عمان‎",
+    "regionname": "Middle East and Africa",
+    "siteid": "om-ar",
+    "region": "middleeast"
+  },
+  {
+    "englishcountryname": "Qatar",
+    "countrycode": "QA",
+    "countryname": "قطر‎",
+    "regionname": "Middle East and Africa",
+    "siteid": "qa-ar",
+    "region": "middleeast"
+  },
+  {
+    "englishcountryname": "Saudi Arabia",
+    "countrycode": "SA",
+    "countryname": "المملكة العربية السعودية",
+    "regionname": "Middle East and Africa",
+    "siteid": "sa-ar",
+    "region": "middleeast"
+  },
+  {
+    "englishcountryname": "United Arab Emirates",
+    "countrycode": "AE",
+    "countryname": "الإمارات العربية المتحدة",
+    "regionname": "Middle East and Africa",
+    "siteid": "ae-ar",
+    "region": "middleeast"
+  },
+  {
+    "englishcountryname": "Yemen",
+    "countrycode": "YE",
+    "countryname": "اليمن",
+    "regionname": "Middle East and Africa",
+    "siteid": "ye-ar",
+    "region": ""
+  },
+  {
+    "englishcountryname": "Israel",
+    "countrycode": "IL",
+    "countryname": "Israel",
+    "regionname": "Middle East and Africa",
+    "siteid": "il-en",
+    "region": "middleeast"
+  },
+  {
+    "englishcountryname": "Honduras",
+    "countrycode": "HN",
+    "countryname": "Honduras",
+    "regionname": "Americas",
+    "siteid": "hn",
+    "region": "americas"
+  },
+  {
+    "englishcountryname": "Mexico",
+    "countrycode": "MX",
+    "countryname": "México",
+    "regionname": "Americas",
+    "siteid": "mx",
+    "region": "americas"
+  },
+  {
+    "englishcountryname": "Nicaragua",
+    "countrycode": "NI",
+    "countryname": "Nicaragua",
+    "regionname": "Americas",
+    "siteid": "ni",
+    "region": "americas"
+  },
+  {
+    "englishcountryname": "Panama",
+    "countrycode": "PA",
+    "countryname": "Panamá",
+    "regionname": "Americas",
+    "siteid": "pa",
+    "region": "americas"
+  },
+  {
+    "englishcountryname": "Ireland",
+    "countrycode": "IE",
+    "countryname": "Ireland",
+    "regionname": "Europe",
+    "siteid": "ie",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Lithuania",
+    "countrycode": "LT",
+    "countryname": "Lietuva",
+    "regionname": "Europe",
+    "siteid": "lt",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Latvia",
+    "countrycode": "LV",
+    "countryname": "Latvija",
+    "regionname": "Europe",
+    "siteid": "lv",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Malta",
+    "countrycode": "MT",
+    "countryname": "Malta",
+    "regionname": "Europe",
+    "siteid": "mt",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Greece",
+    "countrycode": "GR",
+    "countryname": "Ελλάδα",
+    "regionname": "Europe",
+    "siteid": "gr",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "France",
+    "countrycode": "FR",
+    "countryname": "France",
+    "regionname": "Europe",
+    "siteid": "fr",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Hungary",
+    "countrycode": "HU",
+    "countryname": "Magyarország",
+    "regionname": "Europe",
+    "siteid": "hu",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Israel",
+    "countrycode": "IL",
+    "countryname": "ישראל",
+    "regionname": "Middle East and Africa",
+    "siteid": "il",
+    "region": "middleeast"
+  },
+  {
+    "englishcountryname": "Italy",
+    "countrycode": "IT",
+    "countryname": "Italia",
+    "regionname": "Europe",
+    "siteid": "it",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Japan",
+    "countrycode": "JP",
+    "countryname": "日本",
+    "regionname": "Asia Pacific",
+    "siteid": "jp",
+    "region": "asia"
+  },
+  {
+    "englishcountryname": "Latin America",
+    "countrycode": "LAD",
+    "countryname": "América Latina",
+    "regionname": "Americas",
+    "siteid": "lad",
+    "region": "americas"
+  },
+  {
+    "englishcountryname": "Belgium",
+    "countrycode": "BE",
+    "countryname": "Belgique",
+    "regionname": "Europe",
+    "siteid": "be-fr",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Belgium",
+    "countrycode": "BE",
+    "countryname": "België",
+    "regionname": "Europe",
+    "siteid": "be-nl",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Bahrain",
+    "countrycode": "BH",
+    "countryname": "Bahrain",
+    "regionname": "Middle East and Africa",
+    "siteid": "bh",
+    "region": "middleeast"
+  },
+  {
+    "englishcountryname": "Egypt",
+    "countrycode": "EG",
+    "countryname": "Egypt",
+    "regionname": "Middle East and Africa",
+    "siteid": "eg",
+    "region": "middleeast"
+  },
+  {
+    "englishcountryname": "Iraq",
+    "countrycode": "IQ",
+    "countryname": "Iraq",
+    "regionname": "Middle East and Africa",
+    "siteid": "iq",
+    "region": ""
+  },
+  {
+    "englishcountryname": "Bosnia and Herzegovina",
+    "countrycode": "BA",
+    "countryname": "Bosna i Hercegovina",
+    "regionname": "Europe",
+    "siteid": "ba",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "United Kingdom",
+    "countrycode": "GB",
+    "countryname": "United Kingdom",
+    "regionname": "Europe",
+    "siteid": "uk",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Cyprus",
+    "countrycode": "CY",
+    "countryname": "Κύπρος",
+    "regionname": "Europe",
+    "siteid": "cy",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Bolivia",
+    "countrycode": "BO",
+    "countryname": "Bolivia",
+    "regionname": "Americas",
+    "siteid": "bo",
+    "region": "americas"
+  },
+  {
+    "englishcountryname": "Chile",
+    "countrycode": "CL",
+    "countryname": "Chile",
+    "regionname": "Americas",
+    "siteid": "cl",
+    "region": "americas"
+  },
+  {
+    "englishcountryname": "Colombia",
+    "countrycode": "CO",
+    "countryname": "Colombia",
+    "regionname": "Americas",
+    "siteid": "co",
+    "region": "americas"
+  },
+  {
+    "englishcountryname": "Costa Rica",
+    "countrycode": "CR",
+    "countryname": "Costa Rica",
+    "regionname": "Americas",
+    "siteid": "cr",
+    "region": "americas"
+  },
+  {
+    "englishcountryname": "Sri Lanka",
+    "countrycode": "LK",
+    "countryname": "Sri Lanka",
+    "regionname": "Asia Pacific",
+    "siteid": "lk",
+    "region": "asia"
+  },
+  {
+    "englishcountryname": "Thailand",
+    "countrycode": "TH",
+    "countryname": "Thailand",
+    "regionname": "Asia Pacific",
+    "siteid": "th",
+    "region": "asia"
+  },
+  {
+    "englishcountryname": "",
+    "countrycode": "US",
+    "countryname": "",
+    "regionname": "Americas",
+    "siteid": "default",
+    "region": "americas"
+  },
+  {
+    "englishcountryname": "Vietnam",
+    "countrycode": "VN",
+    "countryname": "Vietnam",
+    "regionname": "Asia Pacific",
+    "siteid": "vn",
+    "region": "asia"
+  },
+  {
+    "englishcountryname": "Russia",
+    "countrycode": "RU",
+    "countryname": "Россия и СНГ",
+    "regionname": "Europe",
+    "siteid": "ru",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Commonwealth of Independent States",
+    "countrycode": "CIS",
+    "countryname": "СНГ",
+    "regionname": "Europe",
+    "siteid": "cis",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Australia",
+    "countrycode": "AU",
+    "countryname": "Australia",
+    "regionname": "Asia Pacific",
+    "siteid": "au",
+    "region": "asia"
+  },
+  {
+    "englishcountryname": "Taiwan",
+    "countrycode": "TW",
+    "countryname": "台灣-繁體中文",
+    "regionname": "Asia Pacific",
+    "siteid": "tw",
+    "region": "asia"
+  },
+  {
+    "englishcountryname": "Africa",
+    "countrycode": "AFRICA",
+    "countryname": "Afrique",
+    "regionname": "Middle East and Africa",
+    "siteid": "africa-fr",
+    "region": "middleeast"
+  },
+  {
+    "englishcountryname": "Spain",
+    "countrycode": "ES",
+    "countryname": "España",
+    "regionname": "Europe",
+    "siteid": "es",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Kenya",
+    "countrycode": "KE",
+    "countryname": "Kenya",
+    "regionname": "Middle East and Africa",
+    "siteid": "ke",
+    "region": "middleeast"
+  },
+  {
+    "englishcountryname": "Kuwait",
+    "countrycode": "KW",
+    "countryname": "Kuwait",
+    "regionname": "Middle East and Africa",
+    "siteid": "kw",
+    "region": "middleeast"
+  },
+  {
+    "englishcountryname": "",
+    "countrycode": "US",
+    "countryname": "",
+    "regionname": "Americas",
+    "siteid": "us",
+    "region": "americas"
+  },
+  {
+    "englishcountryname": "Saudi Arabia",
+    "countrycode": "SA",
+    "countryname": "Saudi Arabia",
+    "regionname": "Middle East and Africa",
+    "siteid": "sa",
+    "region": "middleeast"
+  },
+  {
+    "englishcountryname": "Middle East",
+    "countrycode": "MIDDLEEAST",
+    "countryname": "Middle East Regional",
+    "regionname": "Middle East and Africa",
+    "siteid": "middleeast",
+    "region": "middleeast"
+  },
+  {
+    "englishcountryname": "Bulgaria",
+    "countrycode": "BG",
+    "countryname": "България",
+    "regionname": "Europe",
+    "siteid": "bg",
+    "region": "europe"
+  },
+  {
+    "englishcountryname": "Nigeria",
+    "countrycode": "NG",
+    "countryname": "Nigeria",
+    "regionname": "Middle East and Africa",
+    "siteid": "ng",
+    "region": "middleeast"
+  },
+  {
+    "englishcountryname": "Morocco",
+    "countrycode": "MA",
+    "countryname": "Morocco",
+    "regionname": "Middle East and Africa",
+    "siteid": "ma",
+    "region": "middleeast"
+  }
+]

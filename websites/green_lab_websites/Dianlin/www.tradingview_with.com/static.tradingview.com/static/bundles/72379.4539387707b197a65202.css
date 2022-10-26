@@ -1,0 +1,101 @@
+.container-zq7gSYaw {
+    --filmstrip-container-horizontal-offset: var(--adaptive-mf-container-padding);
+    margin: 0 calc(var(--filmstrip-container-horizontal-offset)*-1);
+    max-width: calc(100% + var(--filmstrip-container-horizontal-offset)*2);
+    position: relative;
+    width: calc(100% + var(--filmstrip-container-horizontal-offset)*2)
+}
+
+@media screen and (min-width:1280px) {
+    .container-zq7gSYaw {
+        --filmstrip-container-horizontal-offset: unset
+    }
+}
+
+.items-zq7gSYaw {
+    display: flex;
+    overflow: scroll;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none
+}
+
+.items-zq7gSYaw.sb-scrollbar-wrap {
+    display: none
+}
+
+.items-zq7gSYaw::-webkit-scrollbar {
+    display: none;
+    height: 0;
+    width: 0
+}
+
+.items-zq7gSYaw::-webkit-scrollbar-thumb,
+.items-zq7gSYaw::-webkit-scrollbar-track {
+    display: none
+}
+
+.items-zq7gSYaw::-webkit-scrollbar-corner {
+    display: none
+}
+
+.items-zq7gSYaw>:not(.internal-zq7gSYaw) {
+    flex-shrink: 0;
+    min-width: var(--filmstrip-item-min-width);
+    width: calc((100% - var(--filmstrip-gap)*(var(--filmstrip-visible-items) - 1))/var(--filmstrip-visible-items))
+}
+
+.items-zq7gSYaw>:not(.internal-zq7gSYaw)+:not(.internal-zq7gSYaw) {
+    margin-left: var(--filmstrip-gap)
+}
+
+.offsetZone-zq7gSYaw {
+    flex: none;
+    width: var(--filmstrip-container-horizontal-offset)
+}
+
+.scrollBtnWrapper-zq7gSYaw {
+    display: none
+}
+
+@media screen and (pointer:fine) {
+    .scrollBtnWrapper-zq7gSYaw {
+        display: block
+    }
+}
+
+.scrollBtn-zq7gSYaw {
+    background-color: #fff;
+    opacity: 1;
+    top: var(--filmstrip-scroll-btn-top, 50%);
+    z-index: 1
+}
+
+html.theme-dark .scrollBtn-zq7gSYaw {
+    background-color: #2a2e39
+}
+
+.leftScrollBtn-zq7gSYaw {
+    left: calc(-16px + var(--filmstrip-container-horizontal-offset, 0px))
+}
+
+.rightScrollBtn-zq7gSYaw {
+    right: calc(-16px + var(--filmstrip-container-horizontal-offset, 0px))
+}
+
+.intersectionZone-zq7gSYaw {
+    position: relative;
+    width: 0
+}
+
+.intersectionDetector-zq7gSYaw {
+    height: 100%;
+    position: absolute
+}
+
+.intersectionLeft-zq7gSYaw {
+    left: 0
+}
+
+.intersectionRight-zq7gSYaw {
+    right: 0
+}

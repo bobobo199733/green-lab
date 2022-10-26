@@ -1,0 +1,183 @@
+#nf-form-2-cont {
+  background: $color-white;
+  border-radius: 5px;
+  padding: 0;
+
+  .nf-form-title {
+    display: none;
+  }
+
+  ul {
+    li {
+      margin-left: 0;
+    }
+  }
+
+  .nf-form-fields-required {
+    display: none;
+  }
+
+  .nf-mp-header {
+    background-color: $color-white;
+    border-radius: 5px 5px 0 0;
+    padding-bottom: 30px;
+
+    .nf-progress-container {
+      display: none;
+    }
+
+    .nf-breadcrumbs {
+      margin: 0 !important;
+      text-align: left;
+      border-bottom: 2px solid #F2F2F2;
+
+      li {
+        display: inline-block;
+        float: none;
+
+        a {
+          box-shadow: none;
+          color: #999;
+          margin: 0 !important;
+          padding: 15px 20px;
+        }
+
+        &.active {
+          a {
+            color: #444;
+            box-shadow: 0 2px 0 0 $color-orange;
+          }
+        }
+      }
+
+    }
+  }
+
+  .nf-mp-body {
+    padding: 0 0 30px 0;
+
+    .nf-input-limit {
+      margin-top: 0px;
+    }
+
+    .html-wrap {
+      h2 {
+        color: $color-orange;
+        font-weight: 300;
+        font-size: 32px;
+        text-align: center;
+        margin: 0;
+        padding: 30px 0 15px;
+      }
+
+      p {
+        text-align: center;
+      }
+
+      .divider {
+        margin: 10px auto;
+        height: 2px;
+        max-width: 60px;
+      }
+    }
+
+    .nf-field-label {
+      label {
+
+      }
+    }
+
+    .html-container.subtitle {
+      background-color: $color-white;
+      margin: 0 auto;
+      padding: 30px 30px 0 30px;
+      max-width: 80%;
+
+      h3 {
+        color: #666 !important;
+        font-size: 24px !important;
+        font-weight: 600 !important;
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+    .nf-field-label {
+      label {
+        color: #333;
+        font-weight: 600;
+      }
+    }
+
+    .nf-field-element {
+      > ul {
+        > li {
+          > label {
+            font-weight: 400;
+            color: #777;
+          }
+        }
+      }
+    }
+
+    .submit-container {
+      // 			display: none;
+      &.submit-bedrijf {
+        display: block;
+      }
+
+      .nf-field {
+        input[type='button'] {
+          box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+          border-radius: 2px;
+          background-color: $color-orange;
+          text-transform: none;
+          font-weight: 600;
+          letter-spacing: 1px;
+          padding: 5px 20px;
+          margin: 0 auto;
+          display: block;
+          width: 80%;
+        }
+      }
+    }
+
+  }
+
+  /* Paginatie onderaan */
+  .nf-mp-footer {
+    border-top: 2px solid #EBEBEB;
+    padding: 20px 0;
+
+    .nf-next-previous {
+      margin: 0 0 !important;
+
+      input {
+        box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+        border-radius: 2px;
+        border: none;
+        background-color: $color-orange;
+        text-transform: none;
+        font-weight: 600;
+        font-size: 16px;
+        letter-spacing: 0;
+        padding: 2px 20px;
+
+      }
+
+      .nf-previous-item {
+        input {
+          border: 2px solid #ccc;
+          background: transparent;
+          color: $color-orange;
+        }
+      }
+
+      .nf-next-item {
+        input {
+          color: $color-white;
+        }
+      }
+    }
+  }
+}

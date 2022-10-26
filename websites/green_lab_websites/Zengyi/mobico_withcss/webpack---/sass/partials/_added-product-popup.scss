@@ -1,0 +1,259 @@
+.yith-wacp-wrapper {
+  @media screen and (max-width: 420px) {
+    min-height: 420px !important;
+  }
+}
+
+#yith-wacp-popup {
+  .yith-wacp-main {
+    border-radius: 5px;
+
+    .yith-wacp-message {
+      background-color: transparent;
+      padding: 0;
+
+      &:before {
+        display: none;
+      }
+
+      span {
+        font-size: 20px;
+        font-weight: 600;
+        @media screen and (max-width: 640px) {
+          font-size: 16px;
+        }
+      }
+    }
+
+
+    .added-product {
+      @media screen and (min-width: 849px) {
+        width: 60%;
+        float: left;
+      }
+
+      > .product-info {
+        border-bottom: none !important;
+        padding-top: 0;
+
+        .product-thumb {
+          .img_badge {
+            display: none !important;
+          }
+
+          @media screen and (max-width: 480px) {
+            float: left;
+            margin-right: 10px;
+          }
+        }
+
+        h3 {
+          font-weight: 600;
+          font-size: 18px;
+          @media screen and (max-width: 640px) {
+            font-size: 15px;
+          }
+
+          a {
+            color: $color-green;
+
+          }
+        }
+
+        .product-thumb {
+          img {
+            max-height: 100px;
+            width: auto;
+          }
+        }
+
+        > .info-box {
+          > .product-info {
+            border-bottom: none;
+          }
+        }
+      }
+
+      .verder {
+        clear: both;
+
+        a {
+          background: transparent !important;
+          color: #000;
+          letter-spacing: 0;
+          font-weight: 400;
+          text-transform: lowercase;
+          padding: 0;
+          border: none;
+
+          i {
+            vertical-align: middle;
+            margin-top: 3px;
+          }
+
+          &:hover {
+            box-shadow: none;
+            background: none !important;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+
+    .je-winkelmand {
+
+
+      @media screen and (min-width: 849px) {
+        float: left;
+        width: 40%;
+        border-left: 1px solid #CCC;
+
+        padding-left: 25px;
+      }
+
+      h3 {
+        color: #000;
+        font-weight: 600;
+        padding: 0 0 0 0;
+      }
+
+      .cart-info {
+        border-bottom: none;
+        padding: 0 0 20px 0;
+
+        .cart-shipping,
+        .shipping-cost,
+        .cart-tax,
+        .cart-totals {
+          text-transform: none;
+          font-weight: 400;
+        }
+      }
+
+      .popup-actions {
+        border-bottom: none;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+
+        .button {
+          &.go-checkout {
+            border-radius: 5px;
+            color: $color-white !important;
+            background-color: $color-orange !important;
+            box-shadow: 0 -3px 0 darken($color-orange, 10%) inset;
+            border: none !important;
+            font-size: 16px !important;
+            width: 100%;
+            display: block;
+            margin: 0;
+            padding: 0;
+            text-transform: none;
+            letter-spacing: 0;
+            padding: 10px 0;
+          }
+
+          &.go-cart {
+            color: #333;
+            text-transform: none;
+            font-weight: 400;
+            letter-spacing: 0;
+            background: transparent;
+            padding: 0;
+            border: none;
+            min-height: inherit;
+
+            i {
+              vertical-align: middle;
+              margin-top: 3px;
+            }
+
+            &:hover {
+              background: none !important;
+              box-shadow: none;
+              color: #000 !important;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+
+
+    .yith-wacp-related {
+      clear: both;
+
+      > h3 {
+        color: #000;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: left;
+        text-transform: none;
+        padding-top: 20px;
+      }
+
+      ul {
+        li {
+          border-radius: 0.25rem;
+        }
+
+        .product_cat-koptelefoon {
+          background: rgba($color-green, 0.25);
+        }
+
+        .product-image {
+          background: $color-white;
+          border-radius: 0.25rem;
+          margin: 1rem !important;
+          text-align: center;
+
+          img {
+            max-height: 100px;
+            width: auto;
+          }
+        }
+
+        .product-title {
+          margin-bottom: 5px;
+          font-size: 15px;
+        }
+
+        .product-price {
+          font-size: 14px;
+          padding-bottom: 15px;
+
+          span.amount {
+            color: inherit;
+            font-weight: inherit;
+            font-size: inherit;
+          }
+        }
+
+        .product-price,
+        .product-title {
+          text-align: center;
+        }
+
+        .add_to_cart_inline {
+          margin-bottom: 0;
+
+          .button {
+            border-radius: 5px;
+            color: $color-white !important;
+            background-color: $color-orange !important;
+            box-shadow: 0 -3px 0 darken($color-orange, 10%) inset;
+            border: none !important;
+            font-size: 16px !important;
+            width: 100%;
+            display: block;
+            margin: 0;
+            padding: 0;
+            text-transform: none;
+            letter-spacing: 0;
+            padding: 0;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+.scrollButtonCircleLeft-gUdx4xM_,
+.scrollButtonCircleRight-gUdx4xM_ {
+    fill: #131722;
+    background-color: #fff;
+    border-radius: 100%;
+    box-shadow: 0 2px 4px #0003;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: none;
+    height: 50px;
+    opacity: .8;
+    padding: 17px 20px;
+    position: absolute;
+    transition: opacity .35s ease, fill .35s ease;
+    width: 50px
+}
+
+html.theme-dark .scrollButtonCircleLeft-gUdx4xM_,
+html.theme-dark .scrollButtonCircleRight-gUdx4xM_ {
+    fill: #b2b5be;
+    background-color: #131722;
+    box-shadow: 0 2px 4px #0006
+}
+
+@media (any-hover:hover) {
+    .scrollButtonCircleLeft-gUdx4xM_:hover,
+    .scrollButtonCircleRight-gUdx4xM_:hover {
+        fill: #2962ff;
+        opacity: 1
+    }
+    html.theme-sa .scrollButtonCircleLeft-gUdx4xM_:hover,
+    html.theme-sa .scrollButtonCircleRight-gUdx4xM_:hover {
+        fill: #ff7200
+    }
+    html.theme-dark .scrollButtonCircleLeft-gUdx4xM_:hover,
+    html.theme-dark .scrollButtonCircleRight-gUdx4xM_:hover {
+        fill: #2962ff
+    }
+}
+
+.scrollButtonCircleLeft-gUdx4xM_ {
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.scrollButtonCircleRight-gUdx4xM_ {
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.scrollButtonCircleLeft-gUdx4xM_.isVisible-gUdx4xM_,
+.scrollButtonCircleRight-gUdx4xM_.isVisible-gUdx4xM_ {
+    display: block
+}
+
+@media (any-hover:hover) {
+    .scrollButtonCircleWrap-gUdx4xM_:hover .scrollButtonCircleLeft-gUdx4xM_,
+    .scrollButtonCircleWrap-gUdx4xM_:hover .scrollButtonCircleRight-gUdx4xM_ {
+        display: block
+    }
+}
+
+.tv-scroll-button-wrap--is-at-end .scrollButtonCircleRight-gUdx4xM_,
+.tv-scroll-button-wrap--is-at-start .scrollButtonCircleLeft-gUdx4xM_ {
+    display: none !important
+}

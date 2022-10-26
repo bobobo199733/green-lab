@@ -1,0 +1,605 @@
+.woocommerce {
+  .shipping__list_label {
+    flex-basis: auto;
+  }
+  form.checkout {
+    .col-inner {
+      &.has-border {
+        border: none;
+
+        background: transparent;
+        padding: 0;
+      }
+    }
+
+    .woocommerce-billing-fields {
+      border-top: none;
+      padding-top: 0;
+      h3 {
+        padding: 0;
+      }
+
+      p {
+        margin-bottom: 5px;
+      }
+    }
+
+    #customer_details {
+      .woocommerce-shipping-fields {
+        #ship-to-different-address {
+          font-size: inherit;
+          font-weight: inherit;
+          color: inherit;
+
+          #ship-to-different-address-checkbox {
+            margin-top: 3px;
+          }
+
+          label {
+            color: #222;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+
+    .form-row {
+      > label {
+        font-weight: 400;
+      }
+
+      input[type='email'],
+      input[type='date'],
+      input[type='search'],
+      input[type='number'],
+      input[type='text'],
+      input[type='tel'],
+      input[type='url'],
+      input[type='password'],
+      textarea,
+      select,
+      .select2-container .select2-choice,
+      .select2-container .select2-selection {
+        box-shadow: none;
+        border-radius: 4px;
+        @media screen and (max-width: 640px) {
+          border-radius: 0;
+        }
+      }
+
+      .select2-container {
+        margin-bottom: 1em;
+      }
+    }
+
+    #billing_house_number_field,
+    #shipping_house_number_field {
+      margin-right: 4%;
+    }
+
+    @media screen and (max-width: 550px) {
+      p.form-row-last, p.form-row-first {
+        width: 48%;
+        float: left;
+      }
+
+      p.form-row-first {
+        margin-right: 4%;
+      }
+    }
+
+    #order_review_heading {
+      display: none;
+    }
+
+    .checkout-heading {
+      border-radius: 5px 5px 0 0;
+      background: #F7F7F7;
+      margin: 0;
+      padding: 15px 20px;
+    }
+
+    #order_review_heading,
+    h3 {
+      text-transform: none;
+      letter-spacing: 0;
+      font-weight: 600;
+    }
+
+    #order_review {
+      .includes_tax {
+        display: none !important;
+      }
+
+      .shop_table,
+      #payment {
+        background: #F7F7F7;
+      }
+
+      .shop_table {
+        border-radius: 0 0 5px 5px;
+
+        thead {
+          display: none;
+        }
+
+        tbody {
+          tr {
+            td {
+              color: #555;
+
+              &:first-child {
+                padding-left: 20px;
+              }
+
+              &:last-child {
+                padding-right: 20px;
+              }
+
+              span.amount {
+                color: inherit;
+                font-weight: inherit;
+              }
+            }
+          }
+        }
+
+        tfoot {
+          tr {
+            th {
+              padding-left: 20px;
+            }
+
+            td {
+              padding-right: 20px;
+            }
+
+            th,
+            td {
+              border-bottom: none;
+              color: #555;
+              font-weight: 400;;
+
+              span.amount {
+                font-weight: inherit;
+                color: inherit;
+              }
+            }
+
+            &:last-child {
+              th,
+              td {
+                color: #000;
+                font-weight: 600;
+                padding-bottom: 30px;
+              }
+            }
+          }
+        }
+      }
+      .shipping__table {
+        tbody {
+          tr {
+            &:last-child {
+              td, th {
+                padding-bottom: 0 !important;
+              }
+            }
+            td {
+              padding-right: 0 !important;
+            }
+          }
+        }
+
+      }
+
+      #payment {
+        border-radius: 5px;
+        margin-top: 30px;
+        padding: 15px 20px 20px;
+
+        ul {
+          li {
+            label {
+              color: #555;
+              display: inline;
+              font-weight: 400;
+
+              img {
+                float: right;
+                max-height: 32px;
+                width: auto;
+              }
+            }
+
+            select {
+              background-color: $color-white;
+              box-shadow: none;
+            }
+
+            &.payment_method_cheque,
+            &.payment_method_other_payment {
+              display: none;
+            }
+          }
+        }
+
+        .wc-terms-and-conditions {
+          label {
+            font-size: .8em;
+            line-height: 1em;
+
+            a {
+              color: #333;
+              letter-spacing: 0;
+              font-weight: 600;
+
+            }
+          }
+        }
+
+        #place_order {
+          color: $color-white !important;
+          background-color: $color-orange !important;
+          box-shadow: 0 -3px 0 darken($color-orange, 10%) inset;
+          border-radius: 5px;
+          border: none !important;
+          font-size: 16px !important;
+          width: 100%;
+          display: block;
+          margin: 0 !important;
+          padding: 0 !important;
+          text-transform: none;
+          letter-spacing: 0;
+
+          &:hover {
+            background-color: #FF8900 !important;
+          }
+
+          span {
+            color: $color-white !important;
+            display: block;
+            padding: 0px 25px !important;
+            text-transform: none;
+          }
+        }
+      }
+    }
+    .woocommerce-terms-and-conditions-wrapper {
+      a {
+        color: inherit;
+        text-decoration: underline;
+      }
+    }
+    .woocommerce-privacy-policy-text {
+      background-color: #F7F7F7;
+      border-radius: 0 0 5px 5px;
+      padding: 0 20px 20px;
+      a {
+        color: inherit;
+        text-decoration: underline;
+      }
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .postnl-delivery-options {
+    clear: both;
+    h3 {
+      margin-bottom: 0;
+    }
+    .post-message-model {
+      border: 1px solid #ddd;
+      margin-bottom: 1rem;
+    }
+
+  }
+}
+
+
+/*-----------------------------------------------------*/
+/* WooCommerce: Checkoutflow */
+/*-----------------------------------------------------*/
+
+.checkoutFlow {
+  display: block;
+  margin: 0 0 30px 0;
+  overflow: hidden;
+  width: 100%;
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+
+  ol {
+    list-style: none;
+    margin: 0;
+
+    li {
+      margin: 0 !important;
+      display: block;
+      float: left;
+      height: 40px;
+      position: relative;
+
+      &.first a,
+      &.first div {
+        border-left-width: 1px;
+        border-radius: 0 0 0 0;
+        background-clip: padding-box;
+        padding-left: 1.4rem;
+        padding-right: 1.4rem
+      }
+
+      &.last a,
+      &.last div {
+        border-right-width: 1px;
+        border-radius: 0 0 0 0;
+        background-clip: padding-box;
+        margin-right: 0
+      }
+
+      div {
+        color: #999
+      }
+
+      .fa {
+        display: none;
+      }
+
+      a,
+      div {
+        background: #F7F7F7;
+        border: 1px solid #E5E5E5;
+        border-left-width: 0;
+        border-right-width: 0;
+        color: #727272;
+        display: block;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 38px;
+        letter-spacing: 0;
+        margin-right: 1px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        text-transform: none;
+      }
+
+      a,
+      a:hover,
+      a:visited {
+        text-decoration: none
+      }
+
+      a:hover {
+        border-color: $color-white;
+        color: #999;
+
+        .arrowEndOverlay {
+          border-left-color: $color-green;
+        }
+      }
+
+      a:hover {
+        background: $color-green;
+        color: $color-white !important;
+      }
+
+      a:hover .arrowStart,
+      a:hover .arrowEnd {
+        border-left-color: $color-white
+      }
+
+      .arrow {
+        height: 0;
+        line-height: 0;
+        position: absolute;
+        top: 0;
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+        width: 0
+      }
+
+      .arrowStart {
+        border-bottom: 20px solid transparent;
+        border-left: 10px solid #E5E5E5;
+        border-top: 20px solid transparent;
+        left: 1px;
+      }
+
+      .arrowStartOverlay {
+        border-bottom: 20px solid transparent;
+        border-left: 10px solid $color-white;
+        border-top: 20px solid transparent;
+        left: 0;
+      }
+
+      .arrowEnd {
+        background: $color-white;
+        border-bottom: 20px solid transparent;
+        border-left: 10px solid #E5E5E5;
+        border-top: 20px solid transparent;
+        right: 1px;
+      }
+
+      .arrowEndOverlay {
+        border-bottom: 20px solid transparent;
+        border-left: 10px solid #F7F7F7;
+        border-top: 20px solid transparent;
+        right: 2px;
+      }
+
+      .current {
+        background-color: $color-green;
+        background-image: none;
+        border-color: $color-green;
+        color: $color-white;
+
+        .arrow {
+          height: 0;
+          line-height: 0;
+          position: absolute;
+          top: 0;
+          width: 0
+        }
+
+        .arrowStart {
+          border-left-color: $color-green
+        }
+
+        .arrowEnd {
+          background-color: $color-white;
+          background-image: none;
+          border-bottom: 20px solid transparent;
+          border-left: 10px solid $color-green;
+          border-top: 20px solid transparent;
+          right: 1px
+        }
+
+        .arrowEndOverlay {
+          background-image: none;
+          border-bottom: 20px solid transparent;
+          border-left: 10px solid $color-green;
+          border-top: 20px solid transparent;
+          display: block;
+          right: 2px;
+        }
+
+      }
+
+      .completed {
+        background: $color-green;
+        color: $color-white;
+
+        .arrowEndOverlay {
+          border-left-color: $color-green;
+        }
+
+        .fa {
+          color: $color-white;
+          display: block;
+          position: absolute;
+          right: 2rem;
+          top: 12px
+        }
+      }
+    }
+  }
+
+  ol {
+    margin: 0;
+    padding: 0;
+  }
+
+  ol.steps1 li {
+    width: 50%
+  }
+
+  ol.steps2 li {
+    width: 50%
+  }
+
+  ol.steps3 li {
+    width: 33.33%
+  }
+
+  ol.steps4 li {
+    width: 25%
+  }
+
+  ol.steps5 li {
+    width: 20%
+  }
+
+  ol.steps6 li {
+    width: 16.66%
+  }
+
+  ol.steps7 li {
+    width: 14.28%
+  }
+
+  ol.steps8 li {
+    width: 12.5%
+  }
+}
+
+.woocommerce-order-pay {
+  #payment {
+    background: #F7F7F7;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 15px 20px 20px;
+
+    ul {
+      list-style: none;
+
+      li {
+        label {
+          color: #555;
+          display: inline-block;
+          font-weight: 400;
+          width: 90%;
+
+          img {
+            float: right;
+            max-height: 32px;
+            width: auto;
+          }
+        }
+
+        select {
+          background-color: $color-white;
+          box-shadow: none;
+        }
+
+        &.payment_method_cheque,
+        &.payment_method_other_payment {
+          display: none;
+        }
+      }
+    }
+
+    .woocommerce-terms-and-conditions {
+      label {
+        font-size: .8em;
+        line-height: 1em;
+
+        a {
+          color: #333;
+          letter-spacing: 0;
+          font-weight: 600;
+
+        }
+      }
+    }
+
+    #place_order {
+      color: $color-white !important;
+      background-color: $color-orange !important;
+      box-shadow: 0 -3px 0 darken($color-orange, 10%) inset;
+      border-radius: 5px;
+      border: none !important;
+      font-size: 16px !important;
+      width: 100%;
+      display: block;
+      margin: 0 !important;
+      padding: 0 !important;
+      text-transform: none;
+      letter-spacing: 0;
+
+      &:hover {
+        background-color: #FF8900 !important;
+      }
+
+      span {
+        color: $color-white !important;
+        display: block;
+        padding: 0px 25px !important;
+        text-transform: none;
+      }
+    }
+  }
+}

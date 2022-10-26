@@ -1,0 +1,10 @@
+.light-button-group-YP0MCnnB {
+    border: 1px solid #e0e3eb;
+    border-radius: 12px;
+    gap: 4px;
+    padding: 3px
+}
+
+html.theme-dark .light-button-group-YP0MCnnB {
+    border: 1px solid #434651
+}

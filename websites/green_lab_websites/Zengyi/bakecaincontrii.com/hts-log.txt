@@ -1,0 +1,16 @@
+HTTrack3.49-2 launched on Sun, 09 Oct 2022 23:11:08 at https://www.bakecaincontrii.com/
+(winhttrack https://www.bakecaincontrii.com/ -O "/Users/anelloyi/websites/bake" -P none:8080 -%v )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+23:12:02	Warning: 	Link https://www.bakecaincontrii.com/cdn-cgi/l/email-protection not scanned (follow robots meta tag)
+23:12:02	Warning: 	Found for https://www.bakecaincontrii.com/country=IT; Domain=.bakecaincontrii.com; Path=/
+23:12:02	Warning: 	File has moved from https://www.bakecaincontrii.com/country=IT; Domain=.bakecaincontrii.com; Path=/ to https://milano.bakecaincontrii.com/country=IT;%20Domain=.bakecaincontrii.com;%20Path=/
+23:12:02	Warning: 	Found for https://www.bakecaincontrii.com/language=it-it; Domain=.bakecaincontrii.com; Path=/
+23:12:02	Warning: 	File has moved from https://www.bakecaincontrii.com/language=it-it; Domain=.bakecaincontrii.com; Path=/ to https://milano.bakecaincontrii.com/language=it-it;%20Domain=.bakecaincontrii.com;%20Path=/
+
+HTTrack Website Copier/3.49-2 mirror complete in 54 seconds : 54 links scanned, 51 files written (6519673 bytes overall) [6115827 bytes received at 113256 bytes/sec], 582667 bytes transferred using HTTP compression in 7 files, ratio 27%, 10.8 requests per connection
+(No errors, 5 warnings, 0 messages)

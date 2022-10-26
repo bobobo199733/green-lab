@@ -1,0 +1,1 @@
+<svg width='20' height='20' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'><defs><style>.cls-1{fill:#FBF9F8;fill-rule:evenodd;}</style></defs><path class='cls-1' d='M17,2V6h5V22H18.46l-2-3H7V15.8L5.54,18H2V2Zm3,6H17v7H9v2h8.54l2,3H20ZM15,4H4V16h.46l2-3H15Z' transform='translate(-2 -2)'/></svg>

@@ -1,0 +1,6 @@
+(function () { window.evolv.runtime.then(function (runtime) { runtime.setAudience({"browser":"chrome","device":"desktop","location":"NL","geo":{"city":"","country":"NL","region":"","metro":"","postal":"","lat":"","lon":"","tz":""},"platform":"windows","referrerUrl":"https://www.rakuten.co.jp/"});
+runtime.stagePlans("browser-cache", function (builder) { builder.alwaysExecute("1", new Function("var url = 'https://rat.rakuten.co.jp'\nfunction logRender(e) {\n console.info('[evolv] render', e)\n window.evolv.runtime.then(function(runtime) {\n console.info('[evolv]
+runtime available')\n\n var userId = runtime._audienceContext.cookie['evolv:uid'];\n var candidateId = e.planId.split(':')[0]\n var experimentId = e.planId.split(':')[1]\n var data = {\n \"acc\": 1462,\n \"aid\": 1,\n \"etype\": \"async\",\n \"cp\": {\n
+\"userid\": userId,\n \"experimentid\": experimentId,\n \"candidateid\": candidateId\n }\n };\n try {\n fetch(url, {\n method: 'POST',\n body: 'cpkg_none=' + JSON.stringify(data),\n //mode: 'cors',\n headers: {\n // 'Content-Type': 'application/json'\n
+}\n });\n } catch (error) {\n console.error('Error:', error);\n } \n });\n}\n\nwindow.evolv.on('rendered', logRender);\n")); builder.clickEventTrigger("goal-8171", ".header-function a.order", function () { return new RegExp("^https\:\/\/stg\.www\.rakuten\.co\.jp\/.*");
+}); }); }); })();

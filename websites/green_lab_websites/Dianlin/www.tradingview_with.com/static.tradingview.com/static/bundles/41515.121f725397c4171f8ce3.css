@@ -1,0 +1,58 @@
+.stat-LFDJBdmF {
+    display: inline-flex;
+    flex-direction: column
+}
+
+.stat-LFDJBdmF .value-LFDJBdmF {
+    font-feature-settings: "tnum" on, "lnum" on;
+    font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px
+}
+
+.stat-LFDJBdmF~.stat-LFDJBdmF {
+    margin-left: 32px
+}
+
+.stat-LFDJBdmF .label-LFDJBdmF {
+    font-feature-settings: "tnum" on, "lnum" on;
+    color: #787b86;
+    font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: .4px;
+    line-height: 16px;
+    margin-top: 4px;
+    text-transform: uppercase
+}
+
+.description-ra97JB32 {
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    line-height: 24px;
+    max-height: 72px;
+    overflow: hidden
+}
+
+.positive-ra97JB32 {
+    color: #089981
+}
+
+.negative-ra97JB32 {
+    color: #f23645
+}
+
+.skeleton-ra97JB32 {
+    height: 44px
+}
+
+.statLabel-ra97JB32 {
+    max-width: 112px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}

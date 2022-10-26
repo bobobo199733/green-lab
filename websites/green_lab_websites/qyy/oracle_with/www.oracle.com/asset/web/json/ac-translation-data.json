@@ -1,0 +1,400 @@
+{
+  "languages": [
+    {
+      "en": [
+        {
+          "question": "Would you like to visit an Oracle country site closer to you?",
+          "country": "Country",
+          "nothanks": "No thanks, I'll stay here",
+          "seepage": "See this page for a different country/region",
+          "visit": "Visit Oracle.com"
+        }
+      ]
+    },
+    {
+      "ar": [
+        {
+          "question": "هل ترغب في زيارة موقع ويب لـ Oracle يخص بلدًا أكثر قربًا إليك؟",
+          "country": "البلد",
+          "nothanks": "لا، شكرًا، سأبقى هنا",
+          "seepage": "اطلِّع على هذه الصفحة لبلد/منطقة أخرى",
+          "visit": "تفضل بزيارة Oracle.com"
+        }
+      ]
+    },
+    {
+      "bg": [
+        {
+          "question": "Желаете ли да посетите местоположение на Oracle, по-близо до вас?",
+          "country": "Държава",
+          "nothanks": "Не, благодаря, ще остана тук",
+          "seepage": "Вижте тази страница за различна държава/регион",
+          "visit": "Посетете Oracle.com"
+        }
+      ]
+    },
+    {
+      "cz": [
+        {
+          "question": "Chcete navštívit web společnosti Oracle pro zemi, která je vám blíže?",
+          "country": "Země",
+          "nothanks": "Ne, děkuji, zůstanu zde",
+          "seepage": "Zobrazit tuto stránku pro jinou zemi/oblast",
+          "visit": "Navštivte web Oracle.com"
+        }
+      ]
+    },
+    {
+      "da": [
+        {
+          "question": "Vil du besøge et websted for et Oracle-land, der er tættere på dig?",
+          "country": "Land",
+          "nothanks": "Nej tak, jeg bliver her",
+          "seepage": "Se denne side for at vælge et andet land/område",
+          "visit": "Besøg Oracle.com"
+        }
+      ]
+    },
+    {
+      "de": [
+        {
+          "question": "Möchten Sie die Oracle-Seite eines weniger weit entfernten Landes besuchen?",
+          "country": "Land",
+          "nothanks": "Nein danke, ich bleibe hier.",
+          "seepage": "Diese Seite für ein anderes Land anzeigen",
+          "visit": "Besuchen Sie Oracle.com"
+        }
+      ]
+    },
+    {
+      "el": [
+        {
+          "question": "Θέλετε να επισκεφθείτε τη διαδικτυακή τοποθεσία της Oracle που είναι πιο κοντά σας;",
+          "country": "Χώρα",
+          "nothanks": "Όχι ευχαριστώ, θα μείνω εδώ",
+          "seepage": "Δείτε τη σελίδα για διαφορετική χώρα",
+          "visit": "Επισκεφθείτε το Oracle.com"
+        }
+      ]
+    },
+    {
+      "es-es": [
+        {
+          "question": "¿Le gustaría visitar el sitio web de Oracle de un país más cercano?",
+          "country": "País",
+          "nothanks": "No, gracias; me quedo aquí",
+          "seepage": "Vea esta página para otro país o región diferente",
+          "visit": "Visite Oracle.com"
+        }
+      ]
+    },
+    {
+      "es-lx": [
+        {
+          "question": "¿Desea visitar el sitio web de Oracle de un país ubicado más cerca?",
+          "country": "País",
+          "nothanks": "No, gracias, me quedaré aquí.",
+          "seepage": "Ver esta página para otro país/región.",
+          "visit": "Visite Oracle.com"
+        }
+      ]
+    },
+    {
+      "fi": [
+        {
+          "question": "Haluatko siirtyä lähempänä olevalle Oraclen maasivulle?",
+          "country": "Maa",
+          "nothanks": "Ei, haluan pysyä täällä",
+          "seepage": "Katso tältä sivulta toinen maa/alue",
+          "visit": "Käy sivustolla Oracle.com"
+        }
+      ]
+    },
+    {
+      "fr": [
+        {
+          "question": "Souhaitez-vous visiter le site d’un pays Oracle plus proche ?",
+          "country": "Pays",
+          "nothanks": "Non merci, je reste ici",
+          "seepage": "Voir cette page pour un autre pays ou une autre région",
+          "visit": "Visitez Oracle.com"
+        }
+      ]
+    },
+    {
+      "fr-ca": [
+        {
+          "question": "Souhaitez-vous visiter le site Oracle d'un pays plus proche?",
+          "country": "Pays",
+          "nothanks": "Non merci, je reste ici",
+          "seepage": "Voir cette page pour un autre pays ou une autre région",
+          "visit": "Visitez Oracle.com"
+        }
+      ]
+    },
+    {
+      "gr": [
+        {
+          "question": "Θέλετε να επισκεφθείτε μια διαδικτυακή τοποθεσία της Oracle που είναι πιο κοντά σας;",
+          "country": "Χώρα",
+          "nothanks": "Όχι ευχαριστώ, θα μείνω εδώ",
+          "seepage": "Δείτε τη σελίδα για διαφορετική χώρα/περιοχή",
+          "visit": "Επισκεφθείτε την Oracle.com"
+        }
+      ]
+    },
+    {
+      "he": [
+        {
+          "question": "האם ברצונך לבקר באתר של Oracle עבור מדינה בקרבתך?",
+          "country": "מדינה",
+          "nothanks": "לא, תודה. אשאר כאן",
+          "seepage": "הצג דף זה עבור מדינה אחרת או אזור אחר",
+          "visit": "בקר ב-Oracle.com"
+        }
+      ]
+    },
+    {
+      "hr": [
+        {
+          "question": "Želite li posjetiti web-mjesto tvrtke Oracle za zemlju koja vam je bliža?",
+          "country": "Zemlja",
+          "nothanks": "Ne, hvala, ostat ću ovdje",
+          "seepage": "Pogledajte ovu stranicu za drugu zemlju/regiju",
+          "visit": "Posjetite Oracle.com"
+        }
+      ]
+    },
+    {
+      "hu": [
+        {
+          "question": "Szeretné egy Önhöz közelebbi ország Oracle oldalát felkeresni?",
+          "country": "Ország",
+          "nothanks": "Nem, köszönöm, maradok ezen az oldalon",
+          "seepage": "Az oldal felkeresése másik országnak/régiónak szóló változatban",
+          "visit": "Oracle.com felkeresése"
+        }
+      ]
+    },
+    {
+      "it": [
+        {
+          "question": "Vuoi andare sul sito Oracle di un paese più vicino a te?",
+          "country": "Paese",
+          "nothanks": "No grazie, rimango qui",
+          "seepage": "Vai a questa pagina per un paese/una regione differente",
+          "visit": "Visita Oracle.com"
+        }
+      ]
+    },
+    {
+      "ja": [
+        {
+          "question": "お住まいの地域に合わせたOracleの国別サイトに移動しますか？",
+          "country": "国",
+          "nothanks": "移動しない",
+          "seepage": "他の国・地域についてはこちらのページをご覧ください。",
+          "visit": "Oracle.comに移動"
+        }
+      ]
+    },
+    {
+      "ko": [
+        {
+          "question": "가까운 국가의 오라클 웹 사이트를 방문하시겠습니까?",
+          "country": "국가",
+          "nothanks": "아니오. 그대로 있겠습니다.",
+          "seepage": "다른 국가/지역 사이트에서 이 페이지 보기",
+          "visit": "Oracle.com 방문하기"
+        }
+      ]
+    },
+    {
+      "lt": [
+        {
+          "question": "Ar norėtumėte būti nukreipti į arčiau jūsų esančios šalies „Oracle“ svetainę?",
+          "country": "Šalis",
+          "nothanks": "Ne, ačiū. Noriu likti čia",
+          "seepage": "Žr. šį interneto puslapį, skirtą kitai šaliai arba regionui",
+          "visit": "Apsilankyti Oracle.com"
+        }
+      ]
+    },
+    {
+      "lv": [
+        {
+          "question": "Vai vēlaties apmeklēt uzņēmuma Oracle jums tuvākās valsts vietni?",
+          "country": "Valsts",
+          "nothanks": "Nē, paldies, es palikšu te",
+          "seepage": "Skatīt šo lapu no citas valsts/reģiona",
+          "visit": "Apmeklēt vietni Oracle.com"
+        }
+      ]
+    },
+    {
+      "mn": [
+        {
+          "question": "Та өөрт ойр Oracle-н улсын сайт руу нэвтрэхийг хүсч байна уу?",
+          "country": "Улс",
+          "nothanks": "Үгүй баярлалаа. Би эндээ үлдэнэ",
+          "seepage": "Өөр улс/бүс нутгийг энэ хуудаснаас үзнэ үү",
+          "visit": "Oracle.com руу нэвтрэх"
+        }
+      ]
+    },
+    {
+      "nl": [
+        {
+          "question": "Wilt u een Oracle-website van een land dichter bij u in de buurt bezoeken?",
+          "country": "Land",
+          "nothanks": "Nee, deze is goed",
+          "seepage": "Zie deze pagina voor andere landen/regio’s",
+          "visit": "Ga naar Oracle.com"
+        }
+      ]
+    },
+    {
+      "no": [
+        {
+          "question": "Vil du besøke Oracle-området for et land som er nærmere deg?",
+          "country": "Land",
+          "nothanks": "Nei takk, jeg blir her",
+          "seepage": "Se denne siden for et annet land/område",
+          "visit": "Besøk Oracle.com"
+        }
+      ]
+    },
+    {
+      "pl": [
+        {
+          "question": "Czy chcesz odwiedzić witrynę Oracle z sąsiedniego kraju?",
+          "country": "Kraj",
+          "nothanks": "Dziękuję, pozostanę tutaj.",
+          "seepage": "Zobacz stronę dotyczącą innego kraju/regionu",
+          "visit": "Odwiedź Oracle.com"
+        }
+      ]
+    },
+    {
+      "pt": [
+        {
+          "question": "Gostaria de visitar um site de país da Oracle mais perto de si?",
+          "country": "País",
+          "nothanks": "Não obrigado, prefiro ficar aqui",
+          "seepage": "Para outro país/região, aceda a esta página",
+          "visit": "Visite Oracle.com"
+        }
+      ]
+    },
+    {
+      "pt-br": [
+        {
+          "question": "Quer visitar o site de um país perto de você onde a Oracle opera?",
+          "country": "País",
+          "nothanks": "Não. Continuarei aqui.",
+          "seepage": "Procure um país/região diferente nesta página",
+          "visit": "Visite a Oracle.com"
+        }
+      ]
+    },
+    {
+      "ro": [
+        {
+          "question": "Doriți să vizitați un site Oracle dintr-o țară apropiată de dvs.?",
+          "country": "Țară",
+          "nothanks": "Nu, mulțumesc. Rămân aici",
+          "seepage": "Vizitați această pagină pentru altă țară/regiune",
+          "visit": "Accesați Oracle.com"
+        }
+      ]
+    },
+    {
+      "ru": [
+        {
+          "question": "Открыть сайт Oracle для ближайшей к Вам страны?",
+          "country": "Страна",
+          "nothanks": "Нет, остаться здесь",
+          "seepage": "Показать эту страницу для другой страны/региона",
+          "visit": "Перейти на Oracle.com"
+        }
+      ]
+    },
+    {
+      "sk": [
+        {
+          "question": "Chceli by ste navštíviť web Oracle z krajiny, ktorá vám je bližšie?",
+          "country": "Krajina",
+          "nothanks": "Nie, ďakujem. Zostanem tu.",
+          "seepage": "Zobrazte si túto stránku pre volbu iné krajiny",
+          "visit": "Navštívte adresu Oracle.com"
+        }
+      ]
+    },
+    {
+      "si": [
+        {
+          "question": "Ali želite obiskati spletno mesto družbe Oracle v državi, ki vam je bliže?",
+          "country": "Država",
+          "nothanks": "Ne, hvala, ostanem tukaj",
+          "seepage": "Oglejte si to stran za drugo državo/regijo",
+          "visit": "Obiščite Oracle.com"
+        }
+      ]
+    },
+    {
+      "sv": [
+        {
+          "question": "Vill du gå till en Oracle-webbplats för ett land som ligger närmare dig?",
+          "country": "Land",
+          "nothanks": "Nej tack, jag stannar här",
+          "seepage": "På den här sidan hittar du information om länder/regioner",
+          "visit": "Besök Oracle.com"
+        }
+      ]
+    },
+    {
+      "tr": [
+        {
+          "question": "Size daha yakın bir ülkenin Oracle web sitesini ziyaret etmek ister misiniz?",
+          "country": "Ülke",
+          "nothanks": "Hayır teşekkür ederim, burada kalacağım",
+          "seepage": "Bu sayfayı farklı bir ülkeye/bölgeye göre görüntüleyin",
+          "visit": "Oracle.com adresini ziyaret edin"
+        }
+      ]
+    },
+    {
+      "uk": [
+        {
+          "question": "Бажаєте відвідати сайт Oracle ближчої до вас країни?",
+          "country": "Країна",
+          "nothanks": "Ні, дякую. Я залишусь тут",
+          "seepage": "Переглянути цю сторінку для іншої країни або регіону",
+          "visit": "Відвідати сайт Oracle.com"
+        }
+      ]
+    },
+    {
+      "zh-tw": [
+        {
+          "question": "是否要造訪離您所在位置較近的 Oracle 國家/地區網站？",
+          "country": "國家/地區",
+          "nothanks": "不用了，謝謝，我要繼續造訪本網站",
+          "seepage": "檢視本網頁查找不同的國家/地區",
+          "visit": "造訪 Oracle.com"
+        }
+      ]
+    },
+    {
+      "zh": [
+        {
+          "question": "您想访问附近国家/地区的 Oracle 网站吗？",
+          "country": "国家/地区",
+          "nothanks": "不，我要留在这里",
+          "seepage": "浏览该页面，了解其他国家/地区的网站",
+          "visit": "访问 oracle.com"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+.grid-IELnCmNm {
+    --grid-col-gap: 24px;
+    --grid-row-gap: 24px;
+    column-gap: var(--grid-col-gap);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--grid-item-min-width), 1fr));
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 -8px;
+    row-gap: var(--grid-row-gap)
+}
+
+@media screen and (min-width:568px) {
+    .grid-IELnCmNm {
+        grid-template-columns: repeat(2, 1fr)
+    }
+}
+
+@media screen and (min-width:768px) {
+    .grid-IELnCmNm {
+        --grid-row-gap: 32px;
+        --grid-col-gap: 48px
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .grid-IELnCmNm {
+        grid-template-columns: repeat(3, 1fr)
+    }
+    body.is-widgetbar-expanded .grid-IELnCmNm {
+        grid-template-columns: repeat(2, 1fr)
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .grid-IELnCmNm {
+        --grid-col-gap: 64px
+    }
+}
+
+@media screen and (min-width:1920px) {
+    .grid-IELnCmNm {
+        grid-template-columns: repeat(4, 1fr)
+    }
+    body.is-widgetbar-expanded .grid-IELnCmNm {
+        grid-template-columns: repeat(3, 1fr)
+    }
+}
+
+@media screen and (min-width:2560px) {
+    .grid-IELnCmNm {
+        grid-template-columns: repeat(5, 1fr)
+    }
+    body.is-widgetbar-expanded .grid-IELnCmNm {
+        grid-template-columns: repeat(4, 1fr)
+    }
+}

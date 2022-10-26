@@ -1,0 +1,26 @@
+{
+    "short_name": "Zillow",
+    "name": "Zillow",
+    "start_url": "/",
+    "display": "standalone",
+    "gcm_sender_id": "482941778795",
+    "prefer_related_applications": true,
+    "related_applications": [
+        {
+            "platform": "play",
+            "id": "com.zillow.android.zillowmap"
+        }
+    ],
+    "icons": [
+        {
+            "src": "https://s.zillowstatic.com/homepage/zillow-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "https://s.zillowstatic.com/homepage/zillow-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}

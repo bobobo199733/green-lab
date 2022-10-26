@@ -1,0 +1,250 @@
+.woocommerce-account {
+  .account-login-inner,
+  .account-register-inner {
+    .woocommerce-Button {
+      border-radius: 5px;
+      color: $color-white;
+      background-color: $color-orange;
+      box-shadow: 0 -3px 0 darken($color-orange, 10%) inset;
+      border: none;
+      font-size: 16px;
+      width: 100%;
+      display: block;
+      margin: 0;
+      padding: 0;
+      text-transform: none;
+      letter-spacing: 0;
+    }
+
+    .woocommerce-form__label-for-checkbox {
+      display: block;
+      margin-left: 0;
+      padding-top: 10px;
+    }
+
+    h3 {
+      letter-spacing: 0;
+      padding-bottom: 15px;
+      text-transform: none !important;
+    }
+
+    label {
+      font-weight: normal;
+    }
+  }
+
+  .my-account-header {
+    h1 {
+      letter-spacing: 0;
+      text-transform: none
+    }
+  }
+
+  /* Navigatie */
+
+  #my-account-nav {
+    > li {
+      > a {
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0;
+        text-transform: none;
+
+        &:before {
+          background-color: $color-orange;
+        }
+      }
+
+      &.is-active {
+        > a {
+          font-weight: 600;
+        }
+      }
+    }
+  }
+
+  /* Order tabel */
+
+  .woocommerce-MyAccount-orders {
+    thead {
+      th {
+        color: #333;
+        font-weight: 600;
+        letter-spacing: 0;
+        text-transform: none;
+      }
+    }
+  }
+
+  /* Dashboard links */
+
+  .dashboard-links {
+    > li {
+      > a {
+        border-radius: 5px;
+        box-shadow: 0 -3px 0 darken($color-orange, 10%) inset;
+        color: $color-white;
+        background-color: $color-orange;
+        font-size: 16px;
+        font-weight: 600;
+      }
+    }
+  }
+
+  /* Adressen */
+
+  .woocommerce-Addresses {
+    .woocommerce-Address-title {
+      h3 {
+        color: #333;
+        font-size: 18px;
+        padding-top: 20px;
+      }
+
+      a {
+        color: #333;
+        text-decoration: underline;
+      }
+    }
+
+    address {
+      font-style: normal;
+      font-size: 85%;
+    }
+  }
+
+  .woocommerce-address-fields {
+    .button {
+      border-radius: 5px;
+      color: $color-white;
+      background-color: $color-orange;
+      box-shadow: 0 -3px 0 darken($color-orange, 10%) inset;
+      border: none;
+      font-size: 16px;
+      width: 100%;
+      display: block;
+      margin: 0;
+      padding: 0;
+      text-transform: none;
+      letter-spacing: 0;
+    }
+
+    input[type='email'], input[type='date'], input[type='search'], input[type='number'], input[type='text'], input[type='tel'], input[type='url'], input[type='password'], textarea, select, .select2-container .select2-choice, .select2-container .select2-selection {
+      box-shadow: none;
+    }
+  }
+
+  /* Bekijk order */
+
+  .woocommerce-MyAccount-content {
+    p {
+      mark {
+        background: transparent;
+        color: inherit;
+      }
+
+      a {
+        color: #333;
+        text-decoration: underline;
+      }
+    }
+
+    .woocommerce-Button {
+      border-radius: 5px;
+      color: $color-white;
+      background-color: $color-orange;
+      box-shadow: 0 -3px 0 darken($color-orange, 10%) inset;
+      border: none;
+      font-size: 16px;
+      width: 100%;
+      display: block;
+      margin: 0;
+      padding: 0;
+      text-transform: none;
+      letter-spacing: 0;
+    }
+  }
+
+  .woocommerce-table--customer-details {
+    tbody {
+      th {
+        font-weight: 600;
+        letter-spacing: 0;
+        text-transform: none;
+      }
+    }
+  }
+
+  .woocommerce-customer-details {
+    .woocommerce-column__title {
+      color: #333;
+      font-size: 18px;
+      padding-top: 20px;
+    }
+
+    address {
+      font-style: normal;
+      font-size: 85%;
+    }
+  }
+
+  .woocommerce-table--order-details {
+    thead {
+      th {
+        color: #333;
+        letter-spacing: 0;
+        font-weight: 600;
+        text-transform: none;
+      }
+    }
+
+    tbody {
+      tr {
+        td {
+          a {
+            color: #777;
+          }
+
+          span.amount {
+            font-weight: normal;
+            color: inherit;
+          }
+        }
+      }
+    }
+
+    tfoot {
+      tr {
+        th {
+          font-weight: normal;
+        }
+
+        &:last-child {
+          th {
+            color: #222;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+
+  .woocommerce-button {
+    border-radius: 5px;
+    color: $color-white;
+    background-color: $color-orange;
+    box-shadow: 0 -3px 0 darken($color-orange, 10%) inset;
+    border: none;
+    font-size: 16px;
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-transform: none;
+    letter-spacing: 0;
+  }
+
+  .proforma {
+    display: none;
+  }
+}

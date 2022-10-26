@@ -1,0 +1,124 @@
+.alert-inkoop {
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 14px;
+  background-color: $color-white;
+  float: right;
+  width: 100%;
+  border: 2px solid #f90;
+  color: #000;
+
+  i {
+    padding-left: 20px;
+    color: #f90;
+    font-size: 40px;
+    float: right;
+    width: 13%;
+  }
+}
+
+.ezfc-theme-default .ezfc-addon-label {
+  display: inline;
+}
+
+.ezfc-element-option-has-image img.ezfc-selected {
+  opacity: 0.9 !important;
+  background-color: #58AF08;
+}
+
+.ezfc-wrapper {
+  .ezfc-element {
+    h2 {
+      color: $color-green;
+      font-size: 18px;
+    }
+  }
+
+  .ezfc-element-option-has-image {
+    input {
+      display: none;
+    }
+
+    label {
+      display: none;
+    }
+
+    img {
+      width: 100px;
+      height: auto;
+    }
+  }
+
+  .ezfc-element.ezfc-hidden,
+  .ezfc-element[data-element="hidden"] {
+    display: none !important;
+  }
+
+  .ezfc-element-input {
+    &[type='text'] {
+      box-shadow: none;
+      margin-bottom: 0;
+      padding: 5px 10px;
+    }
+  }
+
+  .ezfc-element-wrapper-hr {
+    padding: 0;
+
+    hr {
+      margin: 2px 0;
+    }
+  }
+
+  .ezfc-element-wrapper-subtotal {
+    .ezfc-text-currency,
+    .ezfc-text,
+    .ezfc-text-after {
+      color: $color-green;
+      font-size: 24px;
+      font-weight: 600;
+    }
+  }
+
+  .ezfc-submit-wrapper {
+    input[type='submit'] {
+      border-radius: 5px;
+      color: $color-white !important;
+      background-color: $color-orange !important;
+      box-shadow: 0 -3px 0 darken($color-orange, 10%) inset;
+      border: none !important;
+      font-size: 16px !important;
+      width: 100%;
+      display: block;
+      margin: 0 !important;
+      padding: 0 !important;
+      text-transform: none;
+      letter-spacing: 0;
+
+      &:hover {
+        background-color: #FF8900 !important;
+      }
+    }
+  }
+}
+
+.page-template-page-left-sidebar {
+  .sidebar-wrapper {
+    aside {
+      background: #E8E8E8;
+      border-radius: 5px;
+      padding: 20px;
+      font-size: 15px;
+
+      .widget-title {
+        font-size: 16px;
+      }
+
+      ul {
+        li {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}

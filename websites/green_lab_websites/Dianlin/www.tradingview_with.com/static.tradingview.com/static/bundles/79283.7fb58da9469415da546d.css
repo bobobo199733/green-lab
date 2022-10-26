@@ -1,0 +1,71 @@
+.content-cz2HGT9F {
+    border-radius: 12px;
+    padding: 8px
+}
+
+@media (any-hover:hover) {
+    .content-cz2HGT9F:hover {
+        background-color: #f0f3fa
+    }
+    html.theme-dark .content-cz2HGT9F:hover {
+        background-color: #2a2e39
+    }
+    .content-cz2HGT9F:hover .placeholder-cz2HGT9F {
+        background-color: #e0e3eb;
+        cursor: pointer
+    }
+    html.theme-dark .content-cz2HGT9F:hover .placeholder-cz2HGT9F {
+        background-color: #434651
+    }
+}
+
+.placeholder-cz2HGT9F {
+    background-color: #f0f3fa;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative
+}
+
+html.theme-dark .placeholder-cz2HGT9F {
+    background-color: #2a2e39
+}
+
+.logo-cz2HGT9F {
+    border-radius: 50%;
+    display: inline-block;
+    height: 18px;
+    margin-right: 8px;
+    width: 18px
+}
+
+.breadcrumbs-cz2HGT9F {
+    display: inline-block;
+    height: 14px;
+    width: 70%
+}
+
+.header-cz2HGT9F {
+    align-items: center;
+    display: flex;
+    margin-bottom: 12px
+}
+
+.title-cz2HGT9F {
+    height: 17px
+}
+
+.title-cz2HGT9F:not(.title-cz2HGT9F:last-child) {
+    margin-bottom: 8px
+}
+
+.titleFirstRow-cz2HGT9F {
+    width: 90%
+}
+
+.titleSecondRow-cz2HGT9F {
+    width: 100%
+}
+
+.titleThirdRow-cz2HGT9F {
+    width: 60%
+}

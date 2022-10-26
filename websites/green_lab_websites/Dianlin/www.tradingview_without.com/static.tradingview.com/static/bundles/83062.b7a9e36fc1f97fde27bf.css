@@ -1,0 +1,127 @@
+.floatingTooltipContainer-ddEQt9il {
+    --priceColor: initial;
+    --volumeColor: initial;
+    --legendColor: initial;
+    --lineColor: var(--priceColor);
+    min-width: 52px;
+    pointer-events: none;
+    position: absolute;
+    visibility: hidden;
+    z-index: 1000
+}
+
+.floatingTooltipContainer_show-ddEQt9il {
+    visibility: unset
+}
+
+.floatingTooltip-ddEQt9il {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px #0003;
+    overflow: hidden;
+    padding: 6px 12px;
+    position: relative;
+    text-align: center
+}
+
+html.theme-dark .floatingTooltip-ddEQt9il {
+    background-color: #363a45;
+    box-shadow: 0 2px 4px #0006
+}
+
+.floatingTooltip_style_line-ddEQt9il {
+    --priceColor: initial;
+    --volumeColor: initial;
+    --legendColor: #787b86
+}
+
+.floatingTooltip_style_line-ddEQt9il:before {
+    background-color: var(--lineColor, #131722);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 3px
+}
+
+html.theme-dark .floatingTooltip_style_line-ddEQt9il:before {
+    background-color: var(--lineColor, #fff)
+}
+
+.floatingTooltip_align_left-ddEQt9il {
+    text-align: left
+}
+
+.floatingTooltip-ddEQt9il .priceAndVolume-ddEQt9il {
+    color: #131722;
+    font-weight: 700;
+    line-height: 18px
+}
+
+html.theme-dark .floatingTooltip-ddEQt9il .priceAndVolume-ddEQt9il {
+    color: #fff
+}
+
+.floatingTooltip-ddEQt9il .priceAndVolume__price-ddEQt9il {
+    font-size: 13px
+}
+
+.floatingTooltip-ddEQt9il .priceAndVolume__volume-ddEQt9il {
+    font-size: 12px;
+    margin-bottom: 4px;
+    white-space: nowrap
+}
+
+.floatingTooltip-ddEQt9il .ohlc-ddEQt9il {
+    flex-wrap: nowrap;
+    font-size: 11px;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 16px;
+    margin-bottom: 4px
+}
+
+.floatingTooltip-ddEQt9il .ohlc__row-ddEQt9il {
+    display: flex;
+    flex-direction: row
+}
+
+.floatingTooltip-ddEQt9il .ohlc__column-ddEQt9il {
+    color: var(--priceColor, #131722);
+    display: flex;
+    flex-direction: column
+}
+
+html.theme-dark .floatingTooltip-ddEQt9il .ohlc__column-ddEQt9il {
+    color: var(--priceColor, #fff)
+}
+
+.floatingTooltip-ddEQt9il .ohlc__column_volume-ddEQt9il {
+    color: var(--volumeColor, #131722)
+}
+
+html.theme-dark .floatingTooltip-ddEQt9il .ohlc__column_volume-ddEQt9il {
+    color: var(--volumeColor, #fff)
+}
+
+.floatingTooltip-ddEQt9il .ohlc__legends-ddEQt9il {
+    color: var(--legendColor, #131722);
+    margin-right: .2em
+}
+
+html.theme-dark .floatingTooltip-ddEQt9il .ohlc__legends-ddEQt9il {
+    color: var(--legendColor, #fff)
+}
+
+.floatingTooltip-ddEQt9il .time-ddEQt9il {
+    color: #787b86;
+    font-size: 11px;
+    line-height: 14px;
+    white-space: pre
+}
+
+.fade-w6JzqKCn {
+    filter: opacity(.3);
+    transition: filter .3s ease-in-out .1s
+}

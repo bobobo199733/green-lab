@@ -1,0 +1,17 @@
+/*
+Theme Name: Mobico
+Description: Dit thema is gemaakt voor Mobico, gebaseerd op het hoofdthema Flatsome, met de focus op een strakke UI/UX.
+Author: Webreact
+Template: flatsome
+Version: 3.10.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+.single-product .product-main .product-info .cart .group_table tbody tr td .button {
+    font-size: 14px !important;
+}
+
+@media only screen and (max-width: 48em) {
+    /*************** ADD MOBILE ONLY CSS HERE  ***************/
+}

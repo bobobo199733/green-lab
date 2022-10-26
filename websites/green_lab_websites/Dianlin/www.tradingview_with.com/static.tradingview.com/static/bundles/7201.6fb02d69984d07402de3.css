@@ -1,0 +1,92 @@
+.item-TZ2SJ2fG.item-TZ2SJ2fG,
+.item-TZ2SJ2fG.item-TZ2SJ2fG.withIcon-TZ2SJ2fG {
+    cursor: inherit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 6px 20px
+}
+
+@media screen and (max-width:1019px) {
+    .item-TZ2SJ2fG.item-TZ2SJ2fG,
+    .item-TZ2SJ2fG.item-TZ2SJ2fG.withIcon-TZ2SJ2fG {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        padding: 10px 20px
+    }
+}
+
+.labelRow-TZ2SJ2fG {
+    white-space: normal
+}
+
+.labelRow-TZ2SJ2fG:first-child {
+    padding-left: 0
+}
+
+.labelRow-TZ2SJ2fG:last-child {
+    padding-right: 0
+}
+
+.badge-TZ2SJ2fG {
+    align-self: center;
+    margin-left: 6px
+}
+
+.row-TZ2SJ2fG {
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap
+}
+
+.alignStart-TZ2SJ2fG {
+    align-items: flex-start
+}
+
+.description-TZ2SJ2fG {
+    font-feature-settings: "tnum" on, "lnum" on;
+    color: #5d606b;
+    font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px
+}
+
+html.theme-dark .description-TZ2SJ2fG {
+    color: #9598a1
+}
+
+.iconDescription-TZ2SJ2fG {
+    margin-left: -4px
+}
+
+.itemInfo-TZ2SJ2fG {
+    color: #131722;
+    display: flex;
+    flex-flow: column
+}
+
+html.theme-dark .itemInfo-TZ2SJ2fG {
+    color: #d1d4dc
+}
+
+.iconStyle-TZ2SJ2fG {
+    align-items: center;
+    display: flex;
+    height: 28px;
+    justify-content: center;
+    margin-right: 6px;
+    width: 28px
+}
+
+.iconStyle-TZ2SJ2fG svg {
+    display: block
+}
+
+.label-TZ2SJ2fG {
+    overflow: visible
+}

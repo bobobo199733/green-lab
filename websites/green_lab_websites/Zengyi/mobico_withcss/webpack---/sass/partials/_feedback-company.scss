@@ -1,0 +1,52 @@
+.feedbackcompany-link {
+  height: 220px;
+  position: relative;
+
+  .feedbackcompany-widget {
+    border-radius: 10px;
+    padding: 20px;
+    height: 220px;
+
+    [id^="feedbackcompany-reviewslider"] {
+      height: 50px;
+      transition: ease all 1s !important;
+    }
+
+    .feedbackcompany-widgetheader {
+      display: none;
+    }
+
+    .feedbackcompany-stars {
+      text-align: left;
+      float: left;
+      font-size: 16px !important;
+      line-height: 20px !important;
+    }
+
+    .feedbackcompany-reviewauthor {
+      float: left;
+      width: 100%;
+      text-align: left;
+      margin-top: 10px;
+    }
+
+    .feedbackcompany-reviewcontent {
+      float: left;
+      width: 100%;
+      text-align: left;
+      margin-top: 15px;
+    }
+
+    .feedbackcompany-source {
+      position: absolute;
+      bottom: 20px;
+      width: 81px;
+      height: 23px;
+    }
+  }
+}
+
+//disable link
+.small-link {
+  display: none;
+}

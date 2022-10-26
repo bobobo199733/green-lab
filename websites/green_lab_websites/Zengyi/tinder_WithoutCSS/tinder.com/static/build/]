@@ -1,0 +1,5 @@
+
+  Remove CSS vendor prefixes from your source.
+
+  Usage
+    remove-prefixes <input.css> [<output.css>]

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="92px" height="35px" viewBox="0 0 92 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>r_pay_yoko</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="r_pay_yoko" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M91.9,6.9 L84.3,29.8 C83.5,32.2 81.7,33.6 79.5,33.6 C78.1,33.6 76.8,33.1 75.8,32.1 L77.2,29.9 C77.9,30.5 78.5,30.8 79.3,30.8 C80.5,30.8 81,30.3 81.6,28.7 L82.1,27.4 L74.8,6.8 L77.9,6.8 L83.5,23.1 L88.8,6.8 L91.9,6.8 L91.9,6.9 Z" id="Shape" fill="#BF0000" fill-rule="nonzero"></path>
+        <path d="M68.9,25.6 C67.3,27.5 65.4,28.4 62.9,28.4 C57.4,28.4 53.6,23.9 53.6,17.3 C53.6,10.7 57.4,6.3 63,6.3 C65.5,6.3 67.2,7 68.9,8.8 L69.3,6.8 L72,6.8 L72,28 L69.3,28 L68.9,25.6 Z M56.8,17.4 C56.8,22.2 59.4,25.7 63,25.7 C66.5,25.7 69.1,22.3 69.1,17.5 C69.1,12.7 66.5,9.2 62.9,9.2 C59.4,9.2 56.8,12.7 56.8,17.4 Z" id="Shape" fill="#BF0000" fill-rule="nonzero"></path>
+        <path d="M44.3,1.6 C49,1.6 52.4,4.8 52.4,9.5 C52.4,14.1 49.1,17.4 44.3,17.4 L38.6,17.4 L38.6,28 L35.6,28 L35.6,1.6 L44.3,1.6 Z M44.1,14.6 C47,14.6 49.1,12.5 49.1,9.5 C49.1,6.5 47,4.4 44.1,4.4 L38.6,4.4 L38.6,14.6 L44.1,14.6 Z" id="Shape" fill="#BF0000" fill-rule="nonzero"></path>
+        <polygon id="Shape" fill="#BF0000" fill-rule="nonzero" points="4.7 34.7 0.1 30.9 32.5 30.9"></polygon>
+        <path d="M10,28 L10,19.4 L13.7,19.4 L20.1,28 L26.7,28 L19,17.6 C21.4,15.9 23,13 23,9.8 C23,4.5 18.7,0.3 13.4,0.3 L4.7,0.3 L4.7,28 L10,28 Z M10,5.5 L13.4,5.5 C15.8,5.5 17.7,7.4 17.7,9.8 C17.7,12.2 15.8,14.1 13.4,14.1 L10,14.1 L10,5.5 Z" id="Shape" fill="#BF0000" fill-rule="nonzero"></path>
+    </g>
+</svg>

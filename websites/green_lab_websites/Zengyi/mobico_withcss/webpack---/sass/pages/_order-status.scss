@@ -1,0 +1,34 @@
+.woocommerce {
+  .track_order {
+    .form-row {
+      &.form-row-first,
+      &.form-row-last {
+        float: none;
+        margin-right: 0;
+        width: 100%;
+      }
+
+      input[type='text'] {
+        box-shadow: none;
+      }
+
+      input[type='submit'] {
+        border-radius: 5px;
+        color: $color-white !important;
+        background-color: $color-orange !important;
+        box-shadow: 0 -3px 0 darken($color-orange, 10%) inset;
+        border: none !important;
+        font-size: 16px !important;
+        display: inline-block;
+        margin: 0 !important;
+        padding: 5px 25px !important;
+        text-transform: none;
+        letter-spacing: 0;
+
+        &:hover {
+          background-color: #FF8900 !important;
+        }
+      }
+    }
+  }
+}

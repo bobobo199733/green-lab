@@ -1,0 +1,24 @@
+.message-wrapper {
+  .message-container {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 15px 10px !important;
+
+    &.success-color {
+      background: rgba(91, 186, 104, 0.30);
+      border-color: #5BBA67;
+
+      a {
+        color: #5BBA67;
+      }
+    }
+
+    &.alert-color {
+      background: rgba(179, 0, 0, 0.15);
+    }
+
+    a {
+      text-decoration: underline;
+    }
+  }
+}
